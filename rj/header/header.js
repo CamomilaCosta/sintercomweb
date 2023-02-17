@@ -11,7 +11,7 @@ class MyHeader extends HTMLElement {
         <!--Itens do menu-->
         <div id="content-menumobile">
           <ul id="menu">
-            <a href=""><li>Início</li></a>
+            <a href="../home/sinter.html"><li>Início</li></a>
             <li id="menu-company">
               <p>Para Empresas</p>
               <!--Subitens do opção para empresas-->
