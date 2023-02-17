@@ -51,19 +51,36 @@
           <form action="">
             <input type="text" id="name" placeholder="Seu nome" />
             <input type="email" id="email" placeholder="Seu email" />
+            <input type="tel" name="telefone" id="telefone"
             <textarea
-              id="story"
+              id="msg"
               placeholder="Digite sua mensagem"
-              name="story"
+              name="message"
               rows="5"
               cols="33"
-            ></textarea>
-            <input id="send" type="submit" value="Enviar no WhatsApp" />
+            </textarea>
+            <input id="send" type="submit" class="button" value="Enviar no WhatsApp" />
           </form>
         </div>
         <img src="../assets/elipse/Ellipse 31.png" alt="" />
       </div>
     </main>
     <script src="main.js"></script>
+    <script>
+      function abrirWhatsapp() {
+        var nome = document.getElementById("name").value;
+        var telefone = document.getElementById("telefone").value;
+        var email = document.getElementById("email").value;
+        var msg = document.getElementById("msg").value;
+        var url = "https://wa.me/+558387094155?text=" // Seu numero
+        + "*Formulário de Contato*" + "%0a" // Mensagem personalizada
+        + "%0a" // Quebra de linha
+        + "*Nome*: " + nome + "%0a" // Dados do formulário
+        + "*Telefone*: " + telefone + "%0a"
+        + "*E-mail*: " + email + "%0a"
+        + "*Mensagem*: " + msg;
+        window.open(url, '_blank').focus();
+      }
+    </script>
   </body>
 </html>
