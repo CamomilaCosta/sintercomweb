@@ -139,6 +139,7 @@ body {
   z-index: 15;
 
   background-color: var(--purple-base);
+  border: 1px solid var(--base-white);
   width: calc(100% + 1.6rem);
 
   top: 1.8rem;
