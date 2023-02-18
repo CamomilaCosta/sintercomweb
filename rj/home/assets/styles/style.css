@@ -17,7 +17,6 @@ a {
 
 /*====  VARIABLES ============================ */
 :root {
-  --header-height: 6rem;
 
   /* text-sizes */
   --title-size: 2.2rem;
@@ -77,28 +76,24 @@ body {
 /*====  HEADER ============================ */
 
 #header {
-  width: 100%;
-  height: var(--header-height);
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  box-shadow: 0 0 0!important;
 }
 
 #header .container {
   display: grid;
-  grid-template-columns: 3fr 6fr 2fr;
+  grid-template-columns: 4fr 6fr 3fr !important;
   align-items: center;
   font-weight: 600;
-  margin-top: 15px;
 }
 
 /**** Logo ****/
 #logo-head img{
-	width: 16%;
+	width: 16% !important;
 	margin-right: auto;
 	padding-left: 10px;
 	margin-left: 15px;
   position: absolute;
-	top: 20px;
+	top: 15px!important;
 	left: 0;
 	}
 
@@ -110,14 +105,10 @@ body {
 }
 
 /**** Nav ****/
-#menu {
-  display: flex;
-  justify-content: space-between;
-}
 
-#menu > a, #menu-company  a{
-  color: var(--base-white);
-  text-shadow: 2px 2px #1111119b;
+#menu > a, #menu-company p{
+  color: var(--base-white)!important;
+  text-shadow: 2px 2px 10px #111111fe;
   font-size: var(--text-small);
   position: relative;
 }
@@ -171,32 +162,12 @@ body {
   transition: .2s;
 }
 
-#subitem li {
-  padding: .4rem .5rem;
-  
+.icon-menu {
+  background-color: var(--base-white)!important;
+  padding: 0.2rem 0.4rem;
+  border-radius: 1rem;
 }
 
-#subitem li a:hover{
-  color: var(--gree-base);
-}
-
-#subitem.hover{
-  visibility: visible;
-  opacity: 1;
-  transition: .2s;
-}
-
-#login {
-  justify-self: end;
-}
-
-#login a{
-  color: var(--base-white);
-  font-size: var(--text-small);
-  padding: 0.6rem 0.8rem;
-  background-color: var(--purple-base);
-  border-radius: 20px;
-}
 
 /*====  BANNERS ============================ */
 #banners{
@@ -860,5 +831,11 @@ position: relative;
 }
 
 
+@media (max-width: 991px){
+
+#login a span {
+  background-color: rgb(255, 255, 255) !important;
+}
+}
 
 

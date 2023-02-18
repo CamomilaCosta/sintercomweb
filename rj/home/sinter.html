@@ -16,40 +16,16 @@
     <!--style footer-->
     <link rel="stylesheet" href="../footer/style.css" />
 
+    <!--Cabeçalho-->
+    <link rel="stylesheet" href="../header/style.css" />
+    <link rel="stylesheet" href="../header/icons/style.css" />
+
     <title>Sintercom</title>
   </head>
   <body>
     <!--Cabeçalho-->
-    <header id="header">
-      <div class="container">
-        <!--Logo-->
-        <div id="logo-head">
-          <img src="../assets/logos/logo 5.png" alt="" />
-        </div>
-
-        <nav>
-          <!--Itens do menu-->
-          <ul id="menu">
-            <a href=""><li>Início</li></a>
-            <li id="menu-company">
-              <a href="">Para Empresas</a>
-              <!--Subitens do opção para empresas-->
-              <ul id="subitem">
-                <li><a href="">Banda Larga</a></li>
-                <li><a href="">Link Dedicado</a></li>
-              </ul>
-            </li>
-            <a href=""><li>Parceria</li></a>
-            <a href="../about/index.html"><li>Sobre Nós</li></a>
-            <a href="../contact/index.html"><li>Contato</li></a>
-          </ul>
-        </nav>
-
-        <!--Butão de login-->
-        <div id="login">
-          <a href="">Área do Cliente</a>
-        </div>
-      </div>
+    <header>
+      <my-header></my-header>
     </header>
 
     <!--Banners-->
@@ -413,5 +389,9 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
     <script src="https://unpkg.com/htmlincludejs"></script>
+
+    <!--Cabeçalho-->
+    <script src="../header/header.js"></script>
+    <script src="../header/main.js"></script>
   </body>
 </html>

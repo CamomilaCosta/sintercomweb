@@ -20,7 +20,7 @@ class MyHeader extends HTMLElement {
                 <li><a href="">Link Dedicado</a></li>
               </ul>
             </li>
-            <a href=""><li>Parceria</li></a>
+           
             <a href=""><li>Sobre Nós</li></a>
             <a href=""><li>Contato</li></a>
           </ul>
