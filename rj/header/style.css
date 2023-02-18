@@ -72,7 +72,7 @@ body {
 
 #header .container {
   display: grid;
-  grid-template-columns: 3fr 6fr 2fr;
+  grid-template-columns: 3fr 7fr 2fr;
   align-items: center;
   height: 100%;
   font-weight: 700;
