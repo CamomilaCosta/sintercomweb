@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/icons/style.css" />
+    <!--Footer-->
+    <link rel="stylesheet" href="../footer/style.css" />
+    <link rel="stylesheet" href="../home/assets/icons/style.css" />
+    <!--Cabeçalho-->
+    <link rel="stylesheet" href="../header/style.css" />
+    <link rel="stylesheet" href="../header/icons/style.css" />
+    <title>Sobre nós</title>
+  </head>
+  <body>
+    <header>
+      <!--Cabeçalho-->
+      <my-header></my-header>
+    </header>
+    <main></main>
+    <footer>
+      <iframe
+        src="../footer/index.html"
+        onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"
+      ></iframe>
+    </footer>
+    <!--Cabeçalho-->
+    <script src="../header/header.js"></script>
+    <script src="../header/main.js"></script>
+  </body>
+</html>
