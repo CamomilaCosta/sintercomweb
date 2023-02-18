@@ -26,17 +26,28 @@
               Utilize este canal para pedir informações, esclarecer dúvidas e
               solicitar nossos serviços.
             </p>
-            <form action="GET">
-              <input type="text" id="name" placeholder="Seu nome" />
-              <input type="email" id="email" placeholder="Seu email" />
-              <textarea
+            <form action="get" action="#" onsubmit="abrirWhatsapp()">
+             <div class="fields">
+					<div class="field.half">
+					<input type="text" id="name" placeholder="Seu nome" />
+					</div>
+					<div class="field.half">
+					<input type="email" id="email" placeholder="Seu email" />
+					</div>
+					<div class="field.half">
+					<label for="telefone"></label>
+					<input type="tel" id ="telefone"placeholder="Telefone" id="telefone" />
+					</div>
+				<div class="field">	
+				<textarea
                 id="story"
                 placeholder="Digite sua mensagem"
                 name="story"
                 rows="5"
                 cols="33"
-              ></textarea>
-              <input id="send" type="submit" value="Enviar no WhatsApp" />
+              ></textarea></div>
+			</div>
+              <input id="send" type="submit" value="Enviar no WhatsApp" class="button" />
             </form>
           </div>
           <img src="../assets/elipse/Ellipse 31.png" alt="" />
@@ -139,4 +150,19 @@
     <script src="../header/header.js"></script>
     <script src="../header/main.js"></script>
   </body>
+  <script>function abrirWhatsapp() {
+	var nome = document.getElementById("name").value;
+	var telefone = document.getElementById("telefone").value;
+	var email = document.getElementById("email").value;
+	var msg = document.getElementById("msg").value;
+	var url = "https://wa.me/+5598981130988?text=" // Seu numero
+	  + "*Formulário de Contato*" + "%0a" // Mensagem personalizada
+	  + "%0a" // Quebra de linha
+	  + "*Nome*: " + nome + "%0a" // Dados do formulário
+	  + "*Telefone*: " + telefone + "%0a"
+	  + "*E-mail*: " + email + "%0a"
+	  + "*Mensagem*: " + msg;
+	window.open(url, '_blank').focus();
+  }
+	</script>
 </html>
