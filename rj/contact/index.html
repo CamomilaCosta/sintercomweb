@@ -4,19 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="assets/style.css" />
-    <link rel="stylesheet" href="../footer/style.css" />
-    <link rel="stylesheet" href="../home/assets/icons/style.css" />
 
     <!--Cabeçalho-->
     <link rel="stylesheet" href="../header/style.css" />
     <link rel="stylesheet" href="../header/icons/style.css" />
 
+    <link rel="stylesheet" href="../footer/style.css" />
+    <link rel="stylesheet" href="../home/assets/icons/style.css" />
+
     <title>Contato</title>
   </head>
   <body>
     <!--Cabeçalho-->
-    <my-header></my-header>
+    <header><my-header></my-header></header>
+
     <main>
       <section>
         <div id="form" class="section">
@@ -27,27 +30,38 @@
               solicitar nossos serviços.
             </p>
             <form method="get" action="#" onsubmit="abrirWhatsapp()">
-             <div class="fields">
-					<div class="field.half">
-					<input type="text" id="name" placeholder="Seu nome" />
-					</div>
-					<div class="field.half">
-					<input type="email" id="email" placeholder="Seu email" />
-					</div>
-					<div class="field.half">
-					<label for="telefone"></label>
-					<input type="tel" id ="telefone"placeholder="Telefone" id="telefone" />
-					</div>
-				<div class="field">	
-				<textarea
-                id="story"
-                placeholder="Digite sua mensagem"
-                name="story"
-                rows="5"
-                cols="33"
-              ></textarea></div>
-			</div>
-              <input id="send" type="submit" value="Enviar no WhatsApp" class="button" />
+              <div class="fields">
+                <div class="field.half">
+                  <input type="text" id="name" placeholder="Seu nome" />
+                </div>
+                <div class="field.half">
+                  <input type="email" id="email" placeholder="Seu email" />
+                </div>
+                <div class="field.half">
+                  <label for="telefone"></label>
+                  <input
+                    type="tel"
+                    id="telefone"
+                    placeholder="Telefone"
+                    id="telefone"
+                  />
+                </div>
+                <div class="field">
+                  <textarea
+                    id="story"
+                    placeholder="Digite sua mensagem"
+                    name="story"
+                    rows="5"
+                    cols="33"
+                  ></textarea>
+                </div>
+              </div>
+              <input
+                id="send"
+                type="submit"
+                value="Enviar no WhatsApp"
+                class="button"
+              />
             </form>
           </div>
           <img src="../assets/elipse/Ellipse 31.png" alt="" />
@@ -67,6 +81,7 @@
           </div>
         </div>
       </section>
+      <!---->
       <section class="section">
         <div class="container">
           <h2 class="title title-dark">Dúvidas frequentes</h2>
@@ -140,15 +155,13 @@
       </section>
     </main>
     <footer>
-      <iframe
-        src="../footer/index.html"
-        onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"
-      ></iframe>
+      <my-footer></my-footer>
     </footer>
     <script src="main.js"></script>
     <!--Cabeçalho-->
     <script src="../header/header.js"></script>
     <script src="../header/main.js"></script>
+
+    <script src="../footer/footer.js"></script>
   </body>
- 
 </html>
