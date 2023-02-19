@@ -119,6 +119,7 @@ body {
   justify-content: space-between;
   align-items: center;
   min-height: 320px;
+  position: relative;
 }
 
 #gallery{
@@ -185,3 +186,62 @@ body {
   margin-bottom: .5rem;
 }
 
+#text-mission{
+  font-size: var(--text-medium2);
+}
+
+#award{
+  position: absolute;
+  background-color: var(--gree-base);
+  display: grid;
+  grid-template-columns: 3fr 1fr 10fr;
+  align-items: center;
+  width: 800px;
+  right: calc(50% - 400px);
+  bottom: -12rem;
+  border-radius: 1.5rem;
+  padding: 1.5rem 2rem;
+}
+
+#award img{
+  width: 100px;
+}
+
+#line-award{
+  height: 100%;
+  width: 2px;
+  background-color: var(--base-color);
+}
+
+#about-award{
+  display: inline;
+  justify-self: center;
+  text-align: center;
+  font-size: var(--text-medium);
+  font-weight: 600;
+  color: var(--base-white);
+
+  width: 100%;
+}
+#winner{
+  margin-bottom: 1rem;
+}
+
+#categories {
+  display: flex;
+  justify-content: space-around;
+}
+
+#categories .categorie{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#categories img{
+  width: 20px;
+  margin-right: 10px;
+}
+
+#valores{
+  height: 800px;
+}
