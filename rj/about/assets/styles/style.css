@@ -259,3 +259,53 @@
 .virtue-card-green .virtue-text{
   color: var(--base-white);
 }
+
+/*==== OFFER ============================ */
+#offer{
+  display: flex;
+  align-items: center;
+  height: 450px;
+}
+
+#offer-img{
+  background-image: url(../images/speed.jpeg);
+  height: 100%;
+  min-width: 300px;
+  background-size: 290%;
+  background-position: 48% 100%;
+  background-repeat: no-repeat;
+  border-radius: 1.5rem;
+  box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.255);
+}
+
+#offer-text-area{
+  background-color: var(--base-white);
+  min-height: 85%;
+  box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.255);
+  padding: 2rem 3rem;
+  border-radius: 1.5rem 0rem 0rem 1.5rem;
+}
+
+#offer-title{
+  font-size: var(--title-size);
+  width:55%;
+  font-weight: 800;
+}
+
+#offer-title span{
+  color: var(--gree-base);
+}
+
+#offer-line{
+  width: 10rem;
+  height: 2px;
+  background-color: var(--gree-base);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#offer-text{
+  font-size: var(--text-medium2);
+  font-weight: 500;
+  padding-right: 2.5rem;
+}
