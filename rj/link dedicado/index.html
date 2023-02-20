@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!--swiper-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="../assets/style/reset.css" />
     <link rel="stylesheet" href="assets/style/style.css" />
 
@@ -22,16 +28,322 @@
       <!--Cabeçalho-->
       <my-header></my-header>
     </header>
-    <main></main>
+    <main>
+      <section id="home-link">
+        <div class="section">
+          <div id="home-link-container" class="container">
+            <div id="link-text-area">
+              <h1 id="link-title">Link dedicado</h1>
+              <div id="line-link"></div>
+              <p id="link-text">
+                Conte com o nosso modelo de conexão corporativa privada, muito
+                segura, com disponibilidade constante, alta velocidade e sem
+                compartilhamento de banda! Veja as vantagens:
+              </p>
+              <a id="link-button" href="">Faça sua cotação</a>
+            </div>
+            <div id="link-lottie-area">
+              <lottie-player
+                src="https://assets8.lottiefiles.com/packages/lf20_g5YRRsIsDV.json"
+                background="transparent"
+                speed="1"
+                style="width: 500px; height: auto"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+          </div>
+        </div>
+        <div id="elipse">
+          <img src="../assets/elipse/Ellipse 31.png" alt="" />
+        </div>
+      </section>
+      <section>
+        <div id="benefities-cards" class="container">
+          <div id="purple-card-1" class="benefities-card">
+            <div class="benefities-top">
+              <div class="drop">
+                <img src="assets/icons/suporte.png" alt="" />
+              </div>
+              <div class="benefities-title-area">
+                <h2 class="benefities-title">Suporte</h2>
+                <div class="benefities-line"></div>
+              </div>
+            </div>
+            <div class="benefities-text">
+              <p>Suporte técnico 24 horas.</p>
+            </div>
+          </div>
+
+          <div id="purple-card-2" class="benefities-card">
+            <div class="benefities-top">
+              <div class="drop">
+                <img src="assets/icons/exclusiva.png" alt="" />
+              </div>
+              <div class="benefities-title-area">
+                <h2 class="benefities-title">Exclusiva</h2>
+                <div class="benefities-line"></div>
+              </div>
+            </div>
+            <div class="benefities-text">
+              <p>
+                Não compartilha banda com outros clientes, garantindo alta
+                performance.
+              </p>
+            </div>
+          </div>
+
+          <div id="green-card-1" class="benefities-card-green">
+            <div class="benefities-top">
+              <div class="drop-green">
+                <img src="assets/icons/simetria.png" alt="" />
+              </div>
+              <div class="benefities-title-area">
+                <h2 class="benefities-title-green">Simetria</h2>
+                <div class="benefities-line-green"></div>
+              </div>
+            </div>
+            <div class="benefities-text-green">
+              <p>
+                Velocidades simétricas: download e upload na mesma velocidade
+              </p>
+            </div>
+          </div>
+
+          <div id="green-card-2" class="benefities-card-green">
+            <div class="benefities-top">
+              <div class="drop-green">
+                <img src="assets/icons/dados.png" alt="" />
+              </div>
+              <div class="benefities-title-area">
+                <h2 class="benefities-title-green">Supervisão</h2>
+                <div class="benefities-line-green"></div>
+              </div>
+            </div>
+            <div class="benefities-text-green">
+              <p>Monitoramento de uso do serviço.</p>
+            </div>
+          </div>
+
+          <div id="purple-card-3" class="benefities-card">
+            <div class="benefities-top">
+              <div class="drop">
+                <img src="assets/icons/ip.png" alt="" />
+              </div>
+              <div class="benefities-title-area">
+                <h2 class="benefities-title">IP válidos</h2>
+                <div class="benefities-line"></div>
+              </div>
+            </div>
+            <div class="benefities-text">
+              <p>Fornecimento de IPs válidos e fixos.</p>
+            </div>
+          </div>
+
+          <div id="purple-card-4" class="benefities-card">
+            <div class="benefities-top">
+              <div class="drop">
+                <img src="assets/icons/estavel.png" alt="" />
+              </div>
+              <div class="benefities-title-area">
+                <h2 class="benefities-title">Estável</h2>
+                <div class="benefities-line"></div>
+              </div>
+            </div>
+            <div class="benefities-text">
+              <p>Alta velocidade, estabilidade e conexão permanente.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div id="guarantee" class="container">
+          <div id="guarantee-img"></div>
+          <div id="guarantee-text-area">
+            <h2 id="guarantee-title">
+              Você tem 100% de <span>garantia!</span>
+            </h2>
+            <div id="guarantee-line"></div>
+            <p id="guarantee-text">
+              Se por algum motivo você perceber que os nossos serviços não são
+              para você, oferecemos uma garantia de 14 Dias para reembolso de
+              100% do seu dinheiro e de cada centavo que você investiu. Se a
+              Sintercom não te ajudar a garantir a estabilidade de conexão,
+              proteção total no link para evitar quedas ou se nós não
+              realizarmos a monitoração ativa do link do cliente, basta nos
+              enviar um e-mail que faremos a devolução de todo seu dinheiro.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="testimonials">
+        <div class="container">
+          <h1 class="title">Veja o que dizem nossos clientes</h1>
+          <div id="testimonals-cards" class="swiper-testmonials">
+            <div class="swiper-wrapper">
+              <div class="testimonial-card swiper-slide">
+                <div class="client-info">
+                  <div class="client-img"></div>
+                  <div class="client-name">Cliente Muito Feliz</div>
+                  <span class="icon-quote"></span>
+                </div>
+                <div class="client-text">
+                  Aliquam consectetur orci vitae risus elementum, eu aliquet
+                  neque consectetur.
+                </div>
+                <div class="cliente-rate">
+                  <span class="icon-star"></span>
+                  <span class="icon-star"></span>
+                  <span class="icon-star"></span>
+                  <span class="icon-star"></span>
+                  <span class="icon-star"></span>
+                </div>
+              </div>
+              <div class="testimonial-card swiper-slide">
+                <div class="client-info">
+                  <div class="client-img"></div>
+                  <div class="client-name">Cliente Muito Feliz</div>
+                  <span class="icon-quote"></span>
+                </div>
+                <div class="client-text">
+                  Aliquam consectetur orci vitae risus elementum, eu aliquet
+                  neque consectetur.
+                </div>
+                <div class="cliente-rate">
+                  <span class="icon-star"></span>
+                  <span class="icon-star"></span>
+                  <span class="icon-star"></span>
+                  <span class="icon-star"></span>
+                  <span class="icon-star"></span>
+                </div>
+              </div>
+              <div class="testimonial-card swiper-slide">
+                <div class="client-info">
+                  <div class="client-img"></div>
+                  <div class="client-name">Cliente Muito Feliz</div>
+                  <span class="icon-quote"></span>
+                </div>
+                <div class="client-text">
+                  Aliquam consectetur orci vitae risus elementum, eu aliquet
+                  neque consectetur.
+                </div>
+                <div class="cliente-rate">
+                  <span class="icon-star"></span>
+                  <span class="icon-star"></span>
+                  <span class="icon-star"></span>
+                  <span class="icon-star"></span>
+                  <span class="icon-star"></span>
+                </div>
+              </div>
+              <div class="testimonial-card swiper-slide">
+                <div class="client-info">
+                  <div class="client-img"></div>
+                  <div class="client-name">Cliente Muito Feliz</div>
+                  <span class="icon-quote"></span>
+                </div>
+                <div class="client-text">
+                  Aliquam consectetur orci vitae risus elementum, eu aliquet
+                  neque consectetur.
+                </div>
+                <div class="cliente-rate">
+                  <span class="icon-star"></span>
+                  <span class="icon-star"></span>
+                  <span class="icon-star"></span>
+                  <span class="icon-star"></span>
+                  <span class="icon-star"></span>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="title title-dark">Dúvidas frequentes</h2>
+          <div id="faq-cards">
+            <div class="faq-card">
+              <div class="ask">
+                <p>Como contratar a Internet Sintercon?</p>
+                <img src="assets/icons/mais.png" alt="" />
+              </div>
+              <div class="answer">
+                <p>
+                  Sim a Sintercom possui um portfólio de Serviços que podem
+                  agregar mais dinamismo a sua operação corporativa como ex.
+                  MPLS, LAN to LAN, VPNs, BGPS, LINK IP, Construção,
+                  Certificação e Reparos em Redes Ópticas e com time
+                  especializado para consultorias na área de tecnologia da
+                  informação. Faça Contato com nossos consultores.
+                </p>
+              </div>
+            </div>
+            <div class="faq-card">
+              <div class="ask">
+                <p>Como contratar a Internet Sintercon?</p>
+                <img src="assets/icons/mais.png" alt="" />
+              </div>
+              <div class="answer">
+                <p>
+                  Sim a Sintercom possui um portfólio de Serviços que podem
+                  agregar mais dinamismo a sua operação corporativa como ex.
+                  MPLS, LAN to LAN, VPNs, BGPS, LINK IP, Construção,
+                  Certificação e Reparos em Redes Ópticas e com time
+                  especializado para consultorias na área de tecnologia da
+                  informação. Faça Contato com nossos consultores.
+                </p>
+              </div>
+            </div>
+            <div class="faq-card">
+              <div class="ask">
+                <p>Como contratar a Internet Sintercon?</p>
+                <img src="assets/icons/mais.png" alt="" />
+              </div>
+              <div class="answer">
+                <p>
+                  Sim a Sintercom possui um portfólio de Serviços que podem
+                  agregar mais dinamismo a sua operação corporativa como ex.
+                  MPLS, LAN to LAN, VPNs, BGPS, LINK IP, Construção,
+                  Certificação e Reparos em Redes Ópticas e com time
+                  especializado para consultorias na área de tecnologia da
+                  informação. Faça Contato com nossos consultores.
+                </p>
+              </div>
+            </div>
+            <div class="faq-card">
+              <div class="ask">
+                <p>Como contratar a Internet Sintercon?</p>
+                <img src="assets/icons/mais.png" alt="" />
+              </div>
+              <div class="answer">
+                <p>
+                  Sim a Sintercom possui um portfólio de Serviços que podem
+                  agregar mais dinamismo a sua operação corporativa como ex.
+                  MPLS, LAN to LAN, VPNs, BGPS, LINK IP, Construção,
+                  Certificação e Reparos em Redes Ópticas e com time
+                  especializado para consultorias na área de tecnologia da
+                  informação. Faça Contato com nossos consultores.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer>
       <my-footer></my-footer>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
 
     <!--header-->
     <script src="../header/header.js"></script>
     <script src="../header/main.js"></script>
+
     <!--footer-->
     <script src="../footer/footer.js"></script>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </body>
 </html>

@@ -502,9 +502,11 @@ align-items: center;
 }
 
 /*==== CARDS DE BENEFÍCIOS ============================ */
+
 #benefits{
   min-height: 700px;
 }
+
 #cards-benefits{
   display: grid;
   grid-template-columns: 1fr 1fr;
