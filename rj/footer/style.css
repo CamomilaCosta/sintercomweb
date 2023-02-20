@@ -50,6 +50,7 @@
   margin-bottom: 0.5rem;
   transition: .2s;
   font-size: var(--text-small);
+  color: var(--base-white);
 }
 
 
@@ -58,7 +59,7 @@
   text-align: right;
 }
 
-#footer-logo img{
+#footer-logo a img{
   width: 150px;
 }
 

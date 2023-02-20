@@ -23,14 +23,16 @@ class MyFooter extends HTMLElement {
           <div id="enjoy">
             <h2>Aproveite</h2>
             <ul>
-              <li>Nossos Planos</li>
-              <li>Assine Agora</li>
-              <li>Para Empresas</li>
+            <a href="../banda larga/index.html"><li>Nossos Planos</li></a> 
+            <a href="../contact/index.html"><li>Assine Agora</li></a> 
+            <a href="../link dedicado/index.html"><li>Para Empresas</li></a> 
             </ul>
           </div>
           <div id="sintercom-info">
             <div id="footer-logo">
-              <img src="../assets/logos/logo 6.png" alt="" />
+            <a href="../home/sinter.html">
+            <img src="../assets/logos/logo 6.png" alt="" />
+            </a>
             </div>
             <ul>
               <li>© 2023 - Sintercom Fibra LTDA</li>

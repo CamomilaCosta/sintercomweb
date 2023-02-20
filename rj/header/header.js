@@ -25,10 +25,12 @@ class MyHeader extends HTMLElement {
             <a href="../contact/index.html"><li>Contato</li></a>
           </ul>
           <div id="info-mobile">
-            <div class="location">
-              <span class="icon-location2"></span>
-              <p>Rio de Janeiro</p>
-            </div>
+            <a href="../../index.html">
+              <div class="location">
+               <span class="icon-location2"></span>
+               <p>Rio de Janeiro</p>
+              </div>
+             </a>
             <div id="social-menu">
               <p>Siga nossas redes sociais</p>
               <div id="social-icon">
