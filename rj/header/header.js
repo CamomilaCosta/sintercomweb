@@ -16,8 +16,8 @@ class MyHeader extends HTMLElement {
               <p>Para Empresas</p>
               <!--Subitens do opção para empresas-->
               <ul id="subitem">
-                <li><a href="">Banda Larga</a></li>
-                <li><a href="">Link Dedicado</a></li>
+                <li><a href="../banda larga/index.html">Banda Larga</a></li>
+                <li><a href="../link dedicado/index.html">Link Dedicado</a></li>
               </ul>
             </li>
            
