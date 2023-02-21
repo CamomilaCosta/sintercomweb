@@ -4,7 +4,9 @@ class MyHeader extends HTMLElement {
     <div class="container">
       <!--Logo-->
       <div id="logo-head">
-        <img src="../assets/logos/logo 5.png" alt="" />
+      <a href="../home/sinter.html">
+        <img src="../assets/logos/logo 5.png" alt=""/>
+      </a>
       </div>
 
       <nav>

@@ -10,7 +10,6 @@ const toggle = document.querySelectorAll('#menu-mobile span')
 const iconx = document.querySelector('.icon-x')
 
 if (window.screen.width >= 992) {
-  console.log(window.screen.width)
   menuCompany.addEventListener('mouseover', function () {
     menuSubitem.classList.add('hover')
   })
@@ -25,7 +24,6 @@ if (window.screen.width >= 992) {
   })
 }
 
-console.log(window.width)
 forCompany.addEventListener('click', function () {
   menuSubitem.classList.toggle('click')
 })
@@ -35,7 +33,4 @@ for (const element of toggle) {
     nav.classList.toggle('show')
     iconx.classList.toggle('show')
   })
-}
-
-if (window.screen.width < 991) {
 }

@@ -13,7 +13,7 @@
 #form img{
   position: absolute;
   left: 0;
-  top: 0px;
+  top: 300px;
   min-width: 100%;
   z-index: -1;
 }
@@ -122,6 +122,7 @@
   top: calc(250px  - 4.5rem);
   color: var(--base-white);
   width: 20%;
+  margin-left: 3rem;
 }
 
 #adress h2{

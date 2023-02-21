@@ -140,17 +140,13 @@
 }
 
 @media (max-width: 1190px) {
-  .container {
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
 }
 
 @media (max-width: 991px) {
 
   #header .container{
     grid-template-columns: 7fr 1fr 1fr;
-    grid-template-areas: "logo login mmobile";
+    grid-template-areas: "logo login mmobile"
    
   }
 
@@ -199,7 +195,7 @@
     min-width: 50vw;
     height: 100vh;
     right: 0;
-    top: -50rem;
+    top: -60rem;
 
     position: absolute;
     padding-top: var(--header-height);
