@@ -892,6 +892,10 @@ position: relative;
     width: 200px;
   }
 
+  #banners{
+    min-height: 580px;
+  }
+
 
   #c1, #c2, #c3, #c4, #c5 {
     width: 15rem;
@@ -1001,10 +1005,10 @@ position: relative;
 
 @media (max-width: 577px){
   #elipse-top{
-    left: -180px;
+    left: -190px;
     top: -820px;
     width: 600px;
-    transform: rotate(-5deg);
+    transform: rotate(deg);
     
   }
 
