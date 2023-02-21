@@ -889,6 +889,7 @@ position: relative;
   
   #select-city select{
     background-size: 20px;
+    width: 200px;
   }
 
 
@@ -951,8 +952,14 @@ position: relative;
   .card-benefits {
     max-width: 600px;
     padding: 1.5rem 1.5rem;
+    border-left: 0px solid var(--base-white);
+  }
+  .card-benefits-top span {
+    font-size: 2rem;
+    margin-right: .6rem;
   }
 
+  
   /*==== SOCIAL ============================ */
 
   .social{
@@ -1045,6 +1052,39 @@ position: relative;
     position: absolute;
     width: 600px;
   }
+
+  .client-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: .6rem;
+    margin-bottom: .5rem;
+  }
+  .client-name::before {
+    content: '';
+    width: 40px;
+    top: 1.3rem;
+    left: calc(50% - 25px) ;
+    }
+
+  .testimonial-card {
+     background-color: var(--base-white);
+     width: 420px;
+     height: fit-content;
+   }
+
+  .icon-quote {
+    justify-self: center;
+    font-size: 2rem;
+  }
+  .client-text{
+    text-align: center;
+  }
+  .cliente-rate {
+    margin-top: .6rem;
+    font-size: 1rem;
+    align-self: center}
 }
 
 
