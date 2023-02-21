@@ -126,5 +126,23 @@ body {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
  }
+
+ :root {
+  --header-height: 5rem;
+  
+  /* text-sizes */
+  --title-size: 1.8rem;
+  --subtitle-size: 1.5rem;
+  --text-big: 1.3rem;
+  --text-medium: 1.2rem;
+  --text-medium2: 1rem;
+  --text-medium3: .9rem;
+  --text-small: .8rem;
+  --text-extra-small: 0.6rem;
+
+}
+.section {
+  padding: 3rem 0;
+}
 }
 

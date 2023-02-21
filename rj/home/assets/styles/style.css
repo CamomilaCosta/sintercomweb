@@ -871,6 +871,9 @@ position: relative;
   margin-right: auto;
   margin-left: auto;
 }
+.client-name{
+  margin-left: .6rem;
+}
 }
 
 @media(max-width: 747px){
@@ -991,14 +994,14 @@ position: relative;
 
 @media (max-width: 577px){
   #elipse-top{
-    left: -160px;
-    top: -850px;
-    width: 650px;
+    left: -120px;
+    top: -830px;
+    width: 550px;
   }
 
   #logo-head a img{
-    width: 160px !important;
-    margin-left: 1.5rem;
+    width: 140px !important;
+    margin-left: 1.2rem;
     top: 20px!important;
     left: 0;
     }
@@ -1013,13 +1016,13 @@ position: relative;
 
     .icon-menu {
       padding: 0.4rem 0.6rem;
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       border-radius: 1rem;
       margin-left: 1.5rem;
     }
 
     #login a .icon-user {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
   }
 
   #banners .swiper .swiper-horizontal>.swiper-pagination-bullets, #banners .swiper .swiper-pagination-bullets.swiper-pagination-horizontal{
