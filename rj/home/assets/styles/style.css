@@ -994,14 +994,16 @@ position: relative;
 
 @media (max-width: 577px){
   #elipse-top{
-    left: -120px;
-    top: -830px;
-    width: 550px;
+    left: -180px;
+    top: -820px;
+    width: 600px;
+    transform: rotate(-5deg);
+    
   }
 
   #logo-head a img{
     width: 140px !important;
-    margin-left: 1.2rem;
+    margin-left: 1rem;
     top: 20px!important;
     left: 0;
     }
