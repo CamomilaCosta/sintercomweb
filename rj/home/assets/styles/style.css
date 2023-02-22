@@ -964,7 +964,7 @@ position: relative;
     margin-right: .6rem;
   }
   .card-benefits:hover{
-    border-left: 10px solid var(--purple-base);
+    border-left: 5px solid var(--purple-base);
     transition: .2s;
   }
 
