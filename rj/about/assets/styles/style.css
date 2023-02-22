@@ -126,7 +126,7 @@
   padding: 1.5rem 2rem;
 }
 
-#award img{
+ #logo-melhorplano{
   width: 100px;
 }
 
@@ -185,7 +185,7 @@
   width: 40rem;
   margin-left: auto;
   margin-right: auto;
-  font-size: var(--text-medium3);
+  font-size: var(--text-medium);
   margin-bottom: 1rem;
   font-weight: 600;
 }
@@ -234,9 +234,10 @@
   width: 40px;
 }
 
-.virtue-title{
-  font-size: var(--text-medium);
+.virtue-title, .virtue-title-green{
+  font-size: var(--text-big);
 }
+
 
 .virtue-title-green{
   color: var(--base-white);
@@ -312,5 +313,299 @@
   padding-right: 2.5rem;
 }
 
-/*==== OFFER ============================ */
 
+
+@media (max-width: 1190px){
+
+  #our-mission .elipse img {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  #offer-title {
+    width: 28rem;
+  }
+
+  #offer-text-area {
+    min-height: 85%;
+    max-height: 90%;
+  }
+  #offer-text {
+    padding-right: 1.5rem;
+  }
+
+  #offer {
+    height: fit-content;
+
+  }
+
+  #offer-img{
+    height: 500px;
+  }
+}
+
+@media (max-width: 991px){
+  /*====  MAP ============================ */
+  #map{
+    flex-direction: column;
+  }
+
+  /*==== MISSION ============================ */
+
+  #content .container {
+    flex-direction: column-reverse;
+    padding: 3rem 0rem;
+
+  }
+  #mission{
+    width: 40rem;
+    padding-bottom: 2rem;
+  }
+
+  #mission .title{
+    text-align: right;
+    width: 20rem;
+  }
+
+  #el-1 {
+    bottom: 720px;
+    right: 0;
+  }
+
+  #gallery{
+    width: 40rem;
+    height: 400px;
+  }
+  
+  #award{
+    width: 40rem;
+    left: auto;
+    right: auto;
+  }
+
+  #categories {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #categories .categorie {
+    justify-content: center;
+  }
+
+  #categories .categorie:first-child{
+    margin-bottom: 1rem;
+  }
+
+  /*==== VIRTUE ============================ */
+
+  #virtue-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .virtue-card, .virtue-card-green{
+    max-width: 40rem;
+  }
+
+  #valores .container h1 {
+    font-weight: 800;
+    margin-bottom: 2rem;
+  }
+
+  #valores .container p {
+    width: 30rem;
+    margin-bottom: 2rem;
+  }
+
+  
+  .virtue-text{
+    font-size: var(--text-medium2);
+  }
+
+  /*==== OFFER ============================ */
+
+  #offer {
+    flex-direction: column-reverse;
+  }
+
+  #offer-img {
+    height: 20rem;
+    width: 90%;
+    background-image: url(../images/speed.jpeg);
+    background-size: 100%;
+    background-position: 50% 100%;
+    z-index: 1;
+  }
+  #offer-text {
+    padding-right: 0rem;
+  }
+  #offer-text-area {
+    padding-top: 5rem;
+    margin-top: -3rem;
+    border-radius: 1.5rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 747px){
+  #mission, #gallery{
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #gallery{
+    height: 22rem;
+  }
+
+  #el-1 {
+    top:-120px;
+  }
+
+  #award {
+    grid-template-columns: 1fr;
+    width: 100%;
+    bottom: -14rem;
+  }
+
+  #line-award {
+    height: 2px;
+    width: 100%;
+    background-color: var(--base-color);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  #logo-melhorplano{
+    justify-self: center;
+    width: 70px;
+  }
+
+  #categories {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #categories .categorie:first-child {
+    margin-bottom: 0rem;
+  }
+
+  #offer-img{
+    background-size: cover;
+    height: 15rem;
+  }
+
+  #offer-title{
+    width: 100%;
+  }
+
+  #valores .container p{
+    font-weight: 500;
+  }
+
+
+  #map-img{
+    width: 350px;
+  }
+}
+
+@media (max-width: 577px){
+
+  /*====  MAP ============================ */
+  #map-img {
+    width: 300px;
+  }
+
+  /*==== MISSION ============================ */
+
+  #mission, #gallery {
+    width: 100%;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  #el-1 {
+    top:-90px;
+  }
+
+  #about-award {
+    font-size: var(--text-medium2);
+    font-weight: 600;
+  }
+
+  
+  #categories img {
+    width: 15px;
+    margin-right: 5px;
+  }
+
+  #award{
+    padding: 1rem 1.5rem;
+    bottom: -12rem;
+  }
+
+  /*==== VIRTUE ============================ */
+  #valores {
+    margin-top: 13rem;
+  }
+  #valores .container p {
+    width: 100%;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+
+  #valores .container h1 {
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  .drop img, .drop-green img {
+    width: 30px;
+  }
+
+  /*==== OFFER ============================ */
+  #offer-text {
+    font-size: var(--text-medium);
+  }
+
+  #offer-img{
+    height: 10rem;
+  }
+
+  #offer-text-area {
+    padding: 4rem 1.5rem 2rem 2rem;
+  }
+
+ 
+}
+
+@media (max-width: 425px){
+  #map h1{
+    width: 100%;
+  }
+
+  /*==== MISSION ============================ */
+  #el-1{
+    top: -70px;
+  }
+
+  #gallery {
+    height: 16rem;
+  }
+
+  #categories {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #categories .categorie:first-child {
+    margin-bottom: .5rem;
+  }
+
+  #valores .container p {
+    font-size: var(--text-medium2);
+  }
+
+  #offer-text {
+    font-size: var(--text-medium2);
+  }
+}
