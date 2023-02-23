@@ -1,7 +1,7 @@
 const swipertest = new Swiper('.swiper-testmonials', {
   speed: 1000,
-  slidesPerView: 2,
-  spaceBetween: 30,
+  slidesPerView: 1,
+  spaceBetween: 40,
   pagination: {
     el: '.swiper-pagination'
   },
@@ -10,6 +10,13 @@ const swipertest = new Swiper('.swiper-testmonials', {
   loop: true,
   autoplay: {
     delay: 3800
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    991: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    }
   }
 })
 

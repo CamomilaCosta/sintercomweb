@@ -11,6 +11,7 @@
   font-size: var(--title-size);
   font-weight: 800;
   width: 25.5rem;
+  text-align: left;
 }
 
 #map h1 span{
@@ -96,6 +97,7 @@
 #mission h1{
   font-size: var(--title-size);
   margin-bottom: .5rem;
+  text-align: right;
 }
 
 #mission h1 span{

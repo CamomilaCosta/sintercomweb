@@ -48,6 +48,8 @@
 lottie-player{
   transform: scale(1.2);
   margin-right: .5rem;
+  width: 500px;
+  height: auto;
 }
 
 #elipse{
@@ -63,7 +65,7 @@ lottie-player{
 
 }
 
-/*============== HOME LINK ==============*/
+/*============== CARDS ==============*/
 #benefities-cards{
 display: grid;
 gap: 1rem;
@@ -210,7 +212,7 @@ grid-template:
 
 #guarantee-line{
   width: 10rem;
-  height: 2px;
+  min-height: 2px;
   background-color: var(--gree-base);
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -308,7 +310,6 @@ position: relative;
   max-width: 100vw;
   width: 100vw !important;
   position: absolute;
-  left: -10px;
 }
 
 #testimonials .swiper-testmonials  .swiper-pagination-bullet{
@@ -328,7 +329,7 @@ position: relative;
   position: relative;
 }
 
-#faq-cards .faq-card:nth-child(-n+3){
+#faq-cards .faq-card:nth-child(-n+4){
   margin-bottom: 2rem;
 }
 
@@ -388,4 +389,216 @@ position: relative;
   position: static;
 }
 
+@media(max-width: 1190px){
+  lottie-player{
+    width: 450px;
+  }
+  #elipse, #elipse img {
+    max-width: 100%;
+  }
 
+  #guarantee{
+    height: 500px;
+  }
+
+  #guarantee-text-area{
+    height: 90%;
+    padding-left: 1.5rem;
+  }
+
+  #guarantee-title{
+    width: 20rem;
+  }
+}
+
+@media(max-width:991px){
+
+  #home-link-container{
+    flex-direction: column;
+  }
+
+  #link-text-area {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  lottie-player{
+    width: 500px;
+    margin-top: 3rem;
+  }
+
+  /*============== CARDS ==============*/
+  #benefities-cards{
+    grid-template: 
+    "purple1 purple2" 1fr
+    "green1 green2" 1fr
+    "purple3 purple4" 1fr 
+    /1fr 1fr;
+  }
+    
+  #guarantee {
+    flex-direction: column;
+    height: fit-content;
+
+  }
+
+  #guarantee-img{
+    height: 250px;
+    max-width: 90%;
+    background-size: 110%;
+    background-position:center;
+    margin-bottom: -2rem;
+    z-index: 1;
+  }
+
+  #guarantee-text-area{
+    padding: 4rem 2rem 2rem 2rem;
+    border-radius: 1.5rem;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  #guarantee-text{
+    padding: 0;
+  }
+
+  .swiper-testmonials{
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;  
+  }
+
+  .answer {
+    width: 96%
+  }
+    
+}
+
+@media(max-width: 746px){
+  #link-text-area {
+    max-width: 100%;
+  }
+  lottie-player{
+    width: 450px;
+  }
+
+  
+}
+
+@media(max-width: 643px){
+  #benefities-cards{
+    grid-template: 
+    "purple1" 1fr
+    "purple2" 1fr
+    "green1" 1fr
+    "purple3" 1fr
+    "purple4" 1fr
+    "green2" 1fr
+    /1fr;
+    justify-items: center;
+  }
+
+  .benefities-card, .benefities-card-green{
+    max-width: 400px;
+    min-width: 400px;
+  }
+}
+
+@media(max-width: 576px){
+  lottie-player{
+    width: 300px;
+    margin-top: 3rem;
+  }
+
+  .benefities-card, .benefities-card-green{
+    max-width: 300px;
+    min-width: 300px;
+    padding: 1rem 1.5rem;
+  }
+
+  .drop-green img, .drop img {
+    width: 25px;
+    margin: .6rem .6rem;
+  }
+
+  #guarantee {
+    flex-direction: column;
+    height: fit-content;
+    max-width: 100%;
+  }
+
+  #guarantee-img{
+    height: 200px;
+    min-width: 90%;
+    background-size: 120%;
+  }
+
+  #guarantee-title {
+    width: 15rem;
+}
+
+  #guarantee-text-area{
+    padding: 4rem 2rem 2rem 2rem;
+    border-radius: 1.5rem;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .client-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: .6rem;
+    margin-bottom: .5rem;
+  }
+  .client-name::before {
+    height: 2px;
+    width: 40px;
+    top: 1.3rem;
+    left: calc(50% - 20px) ;
+    }
+
+  .testimonial-card {
+     background-color: var(--base-white);
+     width: 420px;
+     height: fit-content;
+   }
+
+  .icon-quote {
+    justify-self: center;
+    font-size: 2rem;
+  }
+
+  .client-text{
+    text-align: center;
+  }
+
+  .cliente-rate {
+    margin-top: .6rem;
+    font-size: 1rem;
+    align-self: center
+  }
+
+  #testimonials .swiper-testmonials  .swiper-pagination-bullet{
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--purple-base);
+  }
+
+  #faq-cards .faq-card:nth-child(-n+3) {
+    margin-bottom: 1rem;
+  }
+  
+  .ask{
+    padding: 0 1rem;
+    font-size: var(--text-medium3);
+  }
+  .answer {
+    width: 93%;
+    padding: .8rem 1rem;
+  }
+}

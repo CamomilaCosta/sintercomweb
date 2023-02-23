@@ -36,6 +36,7 @@
   margin-bottom: 0.5rem;
   font-size: var(--text-small);
   transition: .2s;
+  color: var(--base-white);
 }
 .ctt:hover, #enjoy ul li:hover{
   color: var(--gree-base);
