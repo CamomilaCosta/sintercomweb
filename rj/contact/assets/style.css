@@ -165,6 +165,8 @@
   font-size: var(--text-medium2);
 }
 
+
+
 .ask.active{
   background-color: var(--purple-base);
 }
@@ -195,6 +197,10 @@
   margin-top: -2px;
 
   font-size: var(--text-medium3);
+}
+
+.answer a{
+  color: var(--purple-base);
 }
 
 .answer.show{
@@ -291,9 +297,7 @@
   }
 
   /*====  FAQ ============================ */
-  .ask {
-    height: 60px;
-  }
+  
 }
 
 @media(max-width: 450px){
