@@ -1009,6 +1009,7 @@ position: relative;
 }
 
 @media (max-width: 577px){
+
   #elipse-top{
     left: -190px;
     top: -820px;
@@ -1061,6 +1062,19 @@ position: relative;
     position: absolute;
     width: 600px;
   }
+
+  .card-benefits {
+    padding: 1.2rem 1.2rem;
+    }
+
+  .card-benefits-top span {
+    font-size: 1.5rem
+  }
+
+  .card-benefits-top h2 {
+    font-size: var(--text-medium);
+    position: relative;
+}
 
   .client-info {
     display: grid;
