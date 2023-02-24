@@ -105,3 +105,27 @@ if (window.screen.width < 991) {
     }
   })
 }
+
+if (window.screen.width < 540) {
+  const cardsPlan = document.querySelectorAll('.card')
+  document.addEventListener('scroll', function () {
+    for (const card of cardsPlan) {
+      if (
+        card.getBoundingClientRect().top < 270 &&
+        card.getBoundingClientRect().top > 90
+      ) {
+        card.classList.add('border-active', 'shadow')
+        card.querySelector('.name').classList.add('active')
+        card.querySelector('.button').classList.add('active')
+        card.querySelector('.mega').classList.add('text-active')
+        card.querySelector('.price p').classList.add('text-active')
+      } else {
+        card.classList.remove('border-active', 'shadow')
+        card.querySelector('.name').classList.remove('active')
+        card.querySelector('.button').classList.remove('active')
+        card.querySelector('.mega').classList.remove('text-active')
+        card.querySelector('.price p').classList.remove('text-active')
+      }
+    }
+  })
+}

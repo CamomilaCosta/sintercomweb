@@ -1167,6 +1167,10 @@ position: relative;
 }
 
 /*==== BENEFICIOS ============================ */
+
+#plans .section{
+  padding: 5rem 0rem;
+}
 .card-benefits {
   padding: 1.2rem 1.2rem;
 }
