@@ -87,7 +87,7 @@ if (window.screen.width < 991) {
   document.addEventListener('scroll', function () {
     for (const cardBenefitie of cardsBenefities) {
       if (
-        cardBenefitie.getBoundingClientRect().top < 360 &&
+        cardBenefitie.getBoundingClientRect().top < 300 &&
         cardBenefitie.getBoundingClientRect().top > 90
       ) {
         cardBenefitie.querySelector('.wifi-icon').classList.add('hov')

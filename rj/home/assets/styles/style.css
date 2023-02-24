@@ -1056,6 +1056,58 @@ position: relative;
     height: 100%;
 }
 }
+@media (max-width: 700px){
+  .wifi-icon img{
+    width: 10px;
+  }
+  
+  
+  .wifi-icon img:nth-child(1).mov{
+    transform: translate(-240%, -290%);
+  }
+  
+  .wifi-icon img:nth-child(2).mov{
+    transform: rotate(90deg) translate(-160%,-400%);
+    transition: .5s;
+  }
+  
+  
+  .wifi-icon img:nth-child(3).mov{
+    transform: rotate(-90deg) translate(-140%,-260%);
+    transition: .5s;
+  }
+
+  
+  .wifi-icon img:nth-child(4).mov{
+    transform: rotate(160deg) translate(-180%,-400%);
+    transition: .5s;
+  }
+}
+
+@media(max-width: 574px){
+  
+  
+  .wifi-icon img:nth-child(1).mov{
+    transform: translate(-240%, -290%);
+  }
+  
+  .wifi-icon img:nth-child(2).mov{
+    transform: rotate(90deg) translate(-160%,-160%);
+    transition: .5s;
+  }
+  
+  
+  .wifi-icon img:nth-child(3).mov{
+    transform: rotate(-90deg) translate(-140%,-260%);
+    transition: .5s;
+  }
+
+  
+  .wifi-icon img:nth-child(4).mov{
+    transform: rotate(160deg) translate(-100%,-270%);
+    transition: .5s;
+  }
+}
 
 @media (max-width: 577px){
 
