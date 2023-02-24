@@ -522,6 +522,7 @@ align-items: center;
 .card-benefits-top{
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .card-benefits-top span{
@@ -551,19 +552,63 @@ align-items: center;
 .cards-benefits-text{
   font-size: var(--text-medium2);
 }
+
 .wifi-icon {
 	position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  left: .2rem;
+  transform: translate(50%);
+  opacity: 0;
+  transition: .2s;
+}
+
+.wifi-icon.hov{
+  opacity: 1;
+  transition: .3s;
+}
+
+
+.wifi-icon img{
 	width: 15px;
-	height: 13.11px;
-	left: -20px;
-	top: -20px;
-	background: url(sinter-main/sinter/assets/image/people/wifiDv21.png), green;
-	animation: rotate-wifi 4s linear infinite;
-		}
-	@keyframes rotate-wifi {
-		from {transform: rotate(0deg);}
-		to {transform: rotate(360deg);}
-		}
+  transition: .5s;
+}
+
+
+.wifi-icon img:nth-child(1).mov{
+  transform: translate(-230%, -290%);
+  transition: .5s;
+}
+
+.wifi-icon img:nth-child(2){
+  transform: rotate(90deg);
+  transition: .5s;
+}
+
+.wifi-icon img:nth-child(2).mov{
+  transform: rotate(90deg) translate(-160%,-290%);
+  transition: .5s;
+}
+
+.wifi-icon img:nth-child(3){
+  transform: rotate(-90deg);
+  transition: .5s;
+}
+
+.wifi-icon img:nth-child(3).mov{
+  transform: rotate(-90deg) translate(-140%,-260%);
+  transition: .5s;
+}
+
+.wifi-icon img:nth-child(4){
+  transform: rotate(160deg);
+  transition: .5s;
+}
+
+.wifi-icon img:nth-child(4).mov{
+  transform: rotate(160deg) translate(-160%,-290%);
+  transition: .5s;
+}
  
 
 /*==== LINK SOCIAL ============================ */
@@ -860,7 +905,14 @@ position: relative;
 .card-benefits{
   max-width: 600px;
   padding: 2rem 2.5rem;
+  border-left: 0px solid var(--base-white);
 }
+
+.card-benefits:hover{
+  border-left: 0px solid var(--purple-base);
+  transition: .2s;
+}
+
  /*==== SOCIAL ============================ */
 #social-img img{
   width: 350px;
@@ -963,10 +1015,7 @@ position: relative;
     font-size: 2rem;
     margin-right: .6rem;
   }
-  .card-benefits:hover{
-    border-left: 5px solid var(--purple-base);
-    transition: .2s;
-  }
+
 
   
   /*==== SOCIAL ============================ */
@@ -1010,104 +1059,117 @@ position: relative;
 
 @media (max-width: 577px){
 
-  #elipse-top{
-    left: -190px;
-    top: -820px;
-    width: 600px;
-    transform: rotate(deg);
-    
-  }
-
-  #logo-head a img{
-    width: 140px !important;
-    margin-left: 1rem;
-    top: 20px!important;
-    left: 0;
-    }
-
-    #header .container {
-      grid-template-columns: 6fr 1fr 1fr !important;
-    }
-
-    #menu-mobile{
-      font-size: 2rem;
-    }
-
-    .icon-menu {
-      padding: 0.4rem 0.6rem;
-      font-size: 1.6rem;
-      border-radius: 1rem;
-      margin-left: 1.5rem;
-    }
-
-    #login a .icon-user {
-      font-size: 1.4rem;
-  }
-
-  #banners .swiper .swiper-horizontal>.swiper-pagination-bullets, #banners .swiper .swiper-pagination-bullets.swiper-pagination-horizontal{
-    right: 3rem;
-    width: 5rem !important;
-  }
-  
-  #banners .swiper .swiper-pagination-bullet{
-    width: 15px;
-    height: 15px;
-    background: #00000000;
-    border: 2px solid var(--purple-base);
-  }
-
-  #elipse-carousel {
-    bottom: -110px;
-    right: 0px;
-    position: absolute;
-    width: 600px;
-  }
-
-  .card-benefits {
-    padding: 1.2rem 1.2rem;
-    }
-
-  .card-benefits-top span {
-    font-size: 1.5rem
-  }
-
-  .card-benefits-top h2 {
-    font-size: var(--text-medium);
-    position: relative;
+/*==== HEADER ============================ */
+#logo-head a img{
+  width: 140px !important;
+  margin-left: 1rem;
+  top: 20px!important;
+  left: 0;
 }
 
-  .client-info {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    justify-items: center;
-    gap: .6rem;
-    margin-bottom: .5rem;
-  }
-  .client-name::before {
-    height: 2px;
-    width: 40px;
-    top: 1.3rem;
-    left: calc(50% - 25px) ;
-    }
+#header .container {
+  grid-template-columns: 6fr 1fr 1fr !important;
+}
 
-  .testimonial-card {
-     background-color: var(--base-white);
-     width: 420px;
-     height: fit-content;
-   }
+#menu-mobile{
+  font-size: 2rem;
+}
 
-  .icon-quote {
-    justify-self: center;
-    font-size: 2rem;
-  }
-  .client-text{
-    text-align: center;
-  }
-  .cliente-rate {
-    margin-top: .6rem;
-    font-size: 1rem;
-    align-self: center}
+.icon-menu {
+  padding: 0.4rem 0.6rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  margin-left: 1.5rem;
+}
+
+  #login a .icon-user {
+    font-size: 1.4rem;
+}
+
+/*==== BANNERS ============================ */
+#elipse-top{
+  left: -190px;
+  top: -820px;
+  width: 600px;
+  transform: rotate(deg);
+  
+}
+
+#banners .swiper .swiper-horizontal>.swiper-pagination-bullets, #banners .swiper .swiper-pagination-bullets.swiper-pagination-horizontal{
+  right: 3rem;
+  width: 5rem !important;
+}
+  
+#banners .swiper .swiper-pagination-bullet{
+  width: 15px;
+  height: 15px;
+  background: #00000000;
+  border: 2px solid var(--purple-base);
+}
+
+#elipse-carousel {
+  bottom: -110px;
+  right: 0px;
+  position: absolute;
+  width: 600px;
+}
+
+/*==== BENEFICIOS ============================ */
+.card-benefits {
+  padding: 1.2rem 1.2rem;
+}
+  
+.card-benefits-top span {
+  font-size: 1.3rem;
+  padding: 0.6rem;
+}
+
+.card-benefits-top h2 {
+  font-size: var(--text-medium);
+  position: relative;
+}
+
+.card-benefits-top h2::before {
+  top: 105%;
+}
+
+/*==== TESTIMONIALS ============================ */
+
+.testimonial-card {
+  background-color: var(--base-white);
+  width: 420px;
+  height: fit-content;
+}
+
+.client-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: .6rem;
+  margin-bottom: .5rem;
+}
+
+.client-name::before {
+  height: 2px;
+  width: 40px;
+  top: 1.3rem;
+  left: calc(50% - 25px) ;
+}
+
+.icon-quote {
+  justify-self: center;
+  font-size: 2rem;
+}
+
+.client-text{
+  text-align: center;
+}
+
+.cliente-rate {
+  margin-top: .6rem;
+  font-size: 1rem;
+  align-self: center}
 }
 
 

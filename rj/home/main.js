@@ -53,3 +53,55 @@ for (const card of cards) {
     this.querySelector('.price p').classList.remove('text-active')
   })
 }
+console.log(window.screen.width)
+if (window.screen.width >= 991) {
+  console.log(window.screen.width)
+  const cardsBenefities = document.querySelectorAll('.card-benefits')
+  //const wifiGrid = querySelector('.wifi-icon')
+  //const wifiImg = document.querySelectorAll('.wifi-icon img')
+
+  for (const cardBenefitie of cardsBenefities) {
+    cardBenefitie.addEventListener('mouseover', function () {
+      this.querySelector('.wifi-icon').classList.add('hov')
+      const wifiImg = this.querySelectorAll('.wifi-icon img')
+      for (const img of wifiImg) {
+        img.classList.add('mov')
+      }
+    })
+    cardBenefitie.addEventListener('mouseout', function () {
+      this.querySelector('.wifi-icon').classList.remove('hov')
+      const wifiImg = this.querySelectorAll('.wifi-icon img')
+      for (const img of wifiImg) {
+        img.classList.remove('mov')
+      }
+    })
+  }
+}
+
+if (window.screen.width < 991) {
+  const cardsBenefities = document.querySelectorAll('.card-benefits')
+  const sectioncards = document.querySelector('#benefits')
+  //const wifiGrid = querySelector('.wifi-icon')
+  //const wifiImg = document.querySelectorAll('.wifi-icon img')
+
+  document.addEventListener('scroll', function () {
+    for (const cardBenefitie of cardsBenefities) {
+      if (
+        cardBenefitie.getBoundingClientRect().top < 360 &&
+        cardBenefitie.getBoundingClientRect().top > 90
+      ) {
+        cardBenefitie.querySelector('.wifi-icon').classList.add('hov')
+        const wifiImg = cardBenefitie.querySelectorAll('.wifi-icon img')
+        for (const img of wifiImg) {
+          img.classList.add('mov')
+        }
+      } else {
+        cardBenefitie.querySelector('.wifi-icon').classList.remove('hov')
+        const wifiImg = cardBenefitie.querySelectorAll('.wifi-icon img')
+        for (const img of wifiImg) {
+          img.classList.remove('mov')
+        }
+      }
+    }
+  })
+}
