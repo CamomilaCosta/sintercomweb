@@ -3,21 +3,14 @@ function abrirWhatsapp() {
   var telefone = document.getElementById('telefone').value
   var email = document.getElementById('email').value
   var msg = document.getElementById('story').value
-  var url ='https://wa.me/+5598981130988?text=' +
-    '*Formulário de Contato*' +
-    '%0a' + 
-    '%0a' + 
-    '*Nome*: ' + nome +
-    '%0a' + 
-    '*Telefone*: ' +
-    telefone +
-    '%0a' +
-    '*E-mail*: ' +
-    email +
-    '%0a' +
-    '*Mensagem*: ' +
-    story
-  window.open(url, '_blank').focus()
+  var url = "https://wa.me/+558386613208?text=" // Seu numero
+  + "*Formulário de Contato*" + "%0a" // Mensagem personalizada
+  + "%0a" // Quebra de linha
+  + "*Nome*: " + nome + "%0a" // Dados do formulário
+  + "*Telefone*: " + telefone + "%0a"
+  + "*E-mail*: " + email + "%0a"
+  + "*Mensagem*: " + msg;
+  window.open(url, '_blank').focus();
 }
 
 const faqbtns = document.querySelectorAll('.ask')
