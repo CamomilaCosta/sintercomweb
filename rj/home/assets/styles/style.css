@@ -345,7 +345,8 @@ margin-bottom: -0.8rem;
   transition: .2s;
 }
 .shadow {
-  box-shadow: 3px 3px 13px 03px rgba(0, 0, 0, 0.202)
+  box-shadow: 3px 3px 13px 03px rgba(0, 0, 0, 0.202);
+  transition: .2s;
 }
   
 

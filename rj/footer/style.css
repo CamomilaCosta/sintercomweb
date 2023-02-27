@@ -32,6 +32,7 @@ my-go-top.show{
 
 my-go-top.fixed{
   position: sticky;
+  transition: .3s;
 }
 
 my-go-top span{

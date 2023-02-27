@@ -111,7 +111,7 @@ if (window.screen.width < 540) {
   document.addEventListener('scroll', function () {
     for (const card of cardsPlan) {
       if (
-        card.getBoundingClientRect().top < 270 &&
+        card.getBoundingClientRect().top < 290 &&
         card.getBoundingClientRect().top > 90
       ) {
         card.classList.add('border-active', 'shadow')
