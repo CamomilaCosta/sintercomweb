@@ -12,7 +12,7 @@ window.addEventListener('scroll', function () {
   } else {
     backToTopButton.classList.remove('show')
   }
-  if (espacodobtn.getBoundingClientRect().top <= 900) {
+  if (espacodobtn.getBoundingClientRect().top <= 890) {
     backToTopButton.classList.add('fixed')
   } else {
     backToTopButton.classList.remove('fixed')
