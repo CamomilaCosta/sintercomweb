@@ -1,6 +1,11 @@
 class MyFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `<div id="footer">
+    <div id="content-back">
+    <my-go-top>
+      <span class="icon-arrow-down"></span>
+    </my-go-top>
+    </div>
     <img id="elipse-footer" src="../assets/elipse/Ellipse 26.png" alt="" />
     <div class="footer">
       <div class="container">
