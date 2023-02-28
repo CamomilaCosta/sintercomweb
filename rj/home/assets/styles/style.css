@@ -152,15 +152,15 @@
 }
 
 #banner1 {
-  background-image: url(../image/banners/BANNER---SEM-ENROLAÇÃO.png);
+  background-image: url(../image/banners/1200/BANNER1.png);
 }
 
 #banner2 {
-  background-image: url(../image/banners/banners-sinercom-3Prancheta-2.png);
+  background-image: url(../image/banners/1200/BANNER2.png);
 }
 
 #banner3 {
-  background-image: url(../image/banners/banners-sinercom-3Prancheta-3.png);
+  background-image: url(../image/banners/1200/BANNER3.png);
 }
 
 .elipse {
@@ -802,6 +802,20 @@ position: relative;
     height: 100%;
   }
 
+  #banner1 {
+    background-image: url(../image/banners/1199/BANNER1.png);
+    
+  }
+  
+  #banner2 {
+    background-image: url(../image/banners/1199/BANNER2.png);
+    
+  }
+  
+  #banner3 {
+    background-image: url(../image/banners/1199/BANNER3.png);
+  }
+
   /*====  Planos ============================ */
 
   #elipse-top{
@@ -854,6 +868,23 @@ position: relative;
 }
 
 @media (max-width: 991px){
+
+  #banner1 {
+    background-image: url(../image/banners/991/BANNER1.png);
+    background-position: 50% 0%;
+    background-size: 110%;
+    
+  }
+  
+  #banner2 {
+    background-image: url(../image/banners/991/BANNER2.png);
+   
+  }
+  
+  #banner3 {
+    background-image: url(../image/banners/991/BANNER3.png);
+  }
+
   #header .container {
     grid-template-columns: 6fr 2fr 1fr !important;
   }
@@ -932,6 +963,23 @@ position: relative;
 }
 
 @media(max-width: 747px){
+
+  #banner1 {
+    background-image: url(../image/banners/741/BANNER1.png);
+    background-position: 50% 0%;
+    background-size: cover;
+    
+  }
+  
+  #banner2 {
+    background-image: url(../image/banners/741/BANNER2.png);
+  }
+  
+  #banner3 {
+    background-image: url(../image/banners/741/BANNER3.png);
+  }
+
+
    /*==== CARDS ============================ */
   #select-city {
     margin-top: 1rem;
@@ -1087,7 +1135,19 @@ position: relative;
 }
 
 @media(max-width: 574px){
+  #banner1 {
+    background-image: url(../image/banners/569/BANNER1.png);
+    
+  }
   
+  #banner2 {
+    background-image: url(../image/banners/569/BANNER2.png);
+  }
+  
+  #banner3 {
+    background-image: url(../image/banners/569/BANNER3.png);
+  }
+
   
   .wifi-icon img:nth-child(1).mov{
     transform: translate(-240%, -290%);
