@@ -5,6 +5,9 @@ class MyFooter extends HTMLElement {
     <my-go-top>
       <span class="icon-arrow-down"></span>
     </my-go-top>
+    <div id="fixed-wpp">
+      <span class="icon-whatsapp"></span>
+    </div>
     </div>
     <img id="elipse-footer" src="../assets/elipse/Ellipse 26.png" alt="" />
     <div class="footer">

@@ -1,6 +1,7 @@
 const backToTopButton = document.querySelector('my-go-top')
 const footer = document.querySelector('#footer')
 const espacodobtn = document.querySelector('#content-back')
+const btnwpp = document.querySelector('#fixed-wpp')
 
 backToTopButton.addEventListener('click', function () {
   window.scrollTo(0, 0)
@@ -25,7 +26,9 @@ window.addEventListener('scroll', function () {
   }
   if (isVisible(espacodobtn)) {
     backToTopButton.classList.add('fixed')
+    btnwpp.classList.add('fixed')
   } else {
     backToTopButton.classList.remove('fixed')
+    btnwpp.classList.remove('fixed')
   }
 })

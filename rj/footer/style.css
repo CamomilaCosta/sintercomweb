@@ -1,5 +1,4 @@
 /*====  go to top ============================ */
-
 my-go-top{
   position: fixed;
   bottom: 2rem;
@@ -30,8 +29,8 @@ my-go-top.show{
   transition: .3s;
 }
 
-my-go-top.fixed{
-  position: sticky;
+.fixed{
+  position: sticky !important;
   transition: .3s;
 }
 
@@ -43,6 +42,30 @@ my-go-top span{
 #content-back{
   min-height: 3rem;
   overflow: visible;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#fixed-wpp{
+  font-size: 1.5rem;
+  color: var(--base-white);
+  background-color: var(--gree-base);
+
+  position: fixed;
+  bottom: 2rem;
+  right: 3rem;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.202);
+
+  height: 3rem;
+  width: 3rem;
+  border-radius: 2rem;
+  z-index: 100;
+
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 
@@ -209,5 +232,19 @@ my-go-top span{
 @media (max-width: 400px){
   .ctt {
     margin-right: 3rem;
+  }
+
+  my-go-top{
+    left: 1rem;
+  }
+
+  #fixed-wpp{
+    right: 1rem;
+  }
+
+  my-go-top, #fixed-wpp{
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1.2rem;
   }
 }
