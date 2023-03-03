@@ -727,6 +727,7 @@ margin-right: 2rem;
   border-radius: 1.5rem;
   background-color: rgb(175, 174, 174);
   border: 2px solid var(--purple-base);
+  background-image: url(../image/logos/logo 4.png);
 }
 
 .client-name{
