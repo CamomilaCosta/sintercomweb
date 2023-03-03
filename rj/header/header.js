@@ -36,8 +36,8 @@ class MyHeader extends HTMLElement {
             <div id="social-menu">
               <p>Siga nossas redes sociais</p>
               <div id="social-icon">
-                <a href="https://www.facebook.com/Sintercom"><span class="icon-facebook"></span></a>
-                <a href="https://www.instagram.com/sintercom.rj/"><span class="icon-instagram"></span></a>
+                <a target="_blank" href="https://www.facebook.com/Sintercom"><span class="icon-facebook"></span></a>
+                <a target="_blank" href="https://www.instagram.com/sintercom.rj/"><span class="icon-instagram"></span></a>
               </div>
             </div>
           </div>

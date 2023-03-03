@@ -34,6 +34,19 @@ const swipertest = new Swiper('.swiper-testmonials', {
   }
 })
 
+const select = document.querySelectorAll('#city')
+
+for (const op of select) {
+  op.addEventListener('click', function () {
+    if (op.value == 'vitoria') {
+      window.open('../contact/index.html', '_self')
+    }
+    if (op.value == 'joao-pessoa') {
+      window.open('../contact/index.html', '_self')
+    }
+  })
+}
+
 const cards = document.querySelectorAll('.card')
 const names = document.querySelectorAll('.name')
 
