@@ -6,7 +6,7 @@ class MyFooter extends HTMLElement {
       <span class="icon-arrow-down"></span>
     </my-go-top>
     <div id="fixed-wpp">
-      <a href="https://wa.me/5527992514685" target="_blank">
+      <a href="https://wa.me/5521996707806" target="_blank">
       <span class="icon-whatsapp"></span>
       </a>
       </div>
