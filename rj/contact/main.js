@@ -1,7 +1,6 @@
 function faq() {
   const faqbtns = document.querySelectorAll('.ask')
   const faqans = document.querySelectorAll('.answer')
-  const imgx = document.querySelectorAll('.ask img')
   console.log(faqbtns)
 
   for (const btn of faqbtns) {

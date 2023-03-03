@@ -16,20 +16,20 @@ class MyFooter extends HTMLElement {
           <div id="contact-footer">
             <h2>Fale Conosco</h2>
             
-            <a href="tel:+552137944677">
+            <a target="_blank" href="tel:+552137944677">
               <div class="ctt" id="phone">
                 <span class="icon-phone-call"></span>
                 <p>(21) 3794-4677</p>
               </div>
             </a>
             
-            <a href="https://wa.me/5583981996111">
+            <a target="_blank" href="https://wa.me/5521996707806">
               <div class="ctt id="wpp">
                 <span class="icon-whatsapp"></span>
-                <p>(83) 98199-6111</p>
+                <p>(21) 99670-7806</p>
               </div>
             </a>
-            <a href="https://www.google.com.br/maps/place/SINTERCOM+%7C+INTERNET+CORPORATIVA+%26+RESIDENCIAL./@-22.7532898,-43.5195691,17z/data=!4m6!3m5!1s0x995db68e30ffbb:0x3eee25f42e2e2476!8m2!3d-22.7526779!4d-43.5186684!16s%2Fg%2F11b78pypsn">
+            <a target="_blank" href="https://www.google.com.br/maps/place/SINTERCOM+%7C+INTERNET+CORPORATIVA+%26+RESIDENCIAL./@-22.7532898,-43.5195691,17z/data=!4m6!3m5!1s0x995db68e30ffbb:0x3eee25f42e2e2476!8m2!3d-22.7526779!4d-43.5186684!16s%2Fg%2F11b78pypsn">
               <div class="ctt id="adress">
                 <span class="icon-location"></span>
                 <p>Palhada, 2346 – 1 – Comendador Soares, Nova Iguaçu – RJ</p>
