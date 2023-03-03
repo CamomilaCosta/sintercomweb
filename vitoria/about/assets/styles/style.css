@@ -1,0 +1,613 @@
+
+/*====  MAP ============================ */
+#map{
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#map h1 {
+  font-size: var(--title-size);
+  font-weight: 800;
+  width: 25.5rem;
+  text-align: left;
+}
+
+#map h1 span{
+  color: var(--purple-base);
+}
+
+/*==== MISSION ============================ */
+#our-mission{
+  position: relative;
+  background-color: var(--purple-base);
+}
+#our-mission .elipse {
+  position: absolute;
+  min-width: 100%;
+  z-index: -1;
+}
+
+#our-mission .elipse img{
+  min-width: 100%;
+}
+
+#el-1 {
+  bottom: 315px;
+  right: 0;
+}
+
+#content .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 320px;
+  position: relative;
+}
+
+#gallery{
+  width: 400px;
+  height: 300px;
+  display: grid;
+  gap: .5rem;
+  grid-template-areas: 
+  "img-1 img-1"
+  "img-2 img-3";
+}
+
+#img-1, #img-2, #img-3{
+  border-radius: 1rem;
+}
+
+#img-1{
+  grid-area: img-1;
+  background-color: red;
+  background-image: url(../images/Datacenter-telecom_edit2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#img-2{
+  grid-area: img-2;
+  background-color: rgb(0, 255, 34);
+  background-image: url(../images/work4.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#img-3{
+  grid-area: img-3;
+  background-color: rgb(0, 4, 255);
+  background-image: url(../images/work1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#mission{
+  width: 27rem;
+  justify-self: right;
+  color: var(--base-white);
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#mission h1{
+  font-size: var(--title-size);
+  margin-bottom: .5rem;
+  text-align: right;
+}
+
+#mission h1 span{
+  color: var(--gree-base);
+}
+
+#mission #line{
+  width: 8rem;
+  height: 2px;
+  background-color: var(--gree-base);
+  margin-bottom: .5rem;
+}
+
+#text-mission{
+  font-size: var(--text-medium2);
+}
+
+#award{
+  position: absolute;
+  background-color: var(--gree-base);
+  display: grid;
+  grid-template-columns: 3fr 1fr 10fr;
+  align-items: center;
+  width: 800px;
+  right: calc(50% - 400px);
+  bottom: -12rem;
+  border-radius: 1.5rem;
+  padding: 1.5rem 2rem;
+}
+
+ #logo-melhorplano{
+  width: 100px;
+}
+
+#line-award{
+  height: 100%;
+  width: 2px;
+  background-color: var(--base-color);
+}
+
+#about-award{
+  display: inline;
+  justify-self: center;
+  text-align: center;
+  font-size: var(--text-medium);
+  font-weight: 600;
+  color: var(--base-white);
+
+  width: 100%;
+}
+#winner{
+  margin-bottom: 1rem;
+}
+
+#categories {
+  display: flex;
+  justify-content: space-around;
+}
+
+#categories .categorie{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#categories img{
+  width: 20px;
+  margin-right: 10px;
+}
+
+/*==== VIRTUE ============================ */
+
+#valores{
+  margin-top: 13rem;
+}
+
+#valores .container h1, #valores .container p{
+  text-align: center;
+}
+
+#valores .container h1{
+  font-size: var(--title-size);
+  margin-bottom: .5rem;
+  font-weight: 800;
+}
+
+#valores .container p{
+  width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: var(--text-medium);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+#virtue-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.virtue-card, .virtue-card-green{
+  border-radius: 1.5rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.235);
+  padding: 1.5rem 2rem;
+}
+
+.virtue-card{
+  background-color: var(--base-white);
+}
+
+.virtue-card-green{
+  background-color: var(--gree-base);
+}
+
+.virtue-top{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.drop, .drop-green{
+  padding: .9rem 1rem;
+  border-radius: 0rem 4rem 4rem 4rem;
+  box-shadow: 2px 2px 15px #4e09656f;
+  margin-right: 1rem;
+}
+.drop{
+  background-color: var(--purple-base);
+}
+
+.drop-green{
+  background-color: var(--base-white);
+}
+
+.drop img, .drop-green img{
+  width: 40px;
+}
+
+.virtue-title, .virtue-title-green{
+  font-size: var(--text-big);
+}
+
+
+.virtue-title-green{
+  color: var(--base-white);
+}
+
+.virtue-line, .virtue-line-green{
+  margin-top: 3px;
+  width: 45px;
+  height: 2px;
+
+}
+.virtue-line{
+  background-color: var(--purple-base);
+}
+
+.virtue-line-green{
+  background-color: var(--base-white);
+}
+
+.virtue-card-green .virtue-text{
+  color: var(--base-white);
+}
+
+/*==== OFFER ============================ */
+
+#offer{
+  display: flex;
+  align-items: center;
+  height: 450px;
+  margin-bottom: 2rem;
+}
+
+#offer-img{
+  background-image: url(../images/speed.jpeg);
+  height: 100%;
+  min-width: 300px;
+  background-size: 290%;
+  background-position: 48% 100%;
+  background-repeat: no-repeat;
+  border-radius: 1.5rem;
+  box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.255);
+}
+
+#offer-text-area{
+  background-color: var(--base-white);
+  min-height: 85%;
+  box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.255);
+  padding: 2rem 3rem;
+  border-radius: 1.5rem 0rem 0rem 1.5rem;
+}
+
+#offer-title{
+  font-size: var(--title-size);
+  width:55%;
+  font-weight: 800;
+}
+
+#offer-title span{
+  color: var(--gree-base);
+}
+
+#offer-line{
+  width: 10rem;
+  height: 2px;
+  background-color: var(--gree-base);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#offer-text{
+  font-size: var(--text-medium2);
+  font-weight: 500;
+  padding-right: 2.5rem;
+}
+
+
+
+@media (max-width: 1190px){
+
+  #our-mission .elipse img {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  #offer-title {
+    width: 28rem;
+  }
+
+  #offer-text-area {
+    min-height: 85%;
+    max-height: 90%;
+  }
+  #offer-text {
+    padding-right: 1.5rem;
+  }
+
+  #offer {
+    height: fit-content;
+
+  }
+
+  #offer-img{
+    height: 500px;
+  }
+}
+
+@media (max-width: 991px){
+  /*====  MAP ============================ */
+  #map{
+    flex-direction: column;
+  }
+
+  /*==== MISSION ============================ */
+
+  #content .container {
+    flex-direction: column-reverse;
+    padding: 3rem 0rem;
+
+  }
+  #mission{
+    width: 40rem;
+    padding-bottom: 2rem;
+  }
+
+  #mission .title{
+    text-align: right;
+    width: 20rem;
+  }
+
+  #el-1 {
+    bottom: 720px;
+    right: 0;
+  }
+
+  #gallery{
+    width: 40rem;
+    height: 400px;
+  }
+  
+  #award{
+    width: 40rem;
+    left: auto;
+    right: auto;
+  }
+
+  #categories {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #categories .categorie {
+    justify-content: center;
+  }
+
+  #categories .categorie:first-child{
+    margin-bottom: 1rem;
+  }
+
+  /*==== VIRTUE ============================ */
+
+  #virtue-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .virtue-card, .virtue-card-green{
+    max-width: 40rem;
+  }
+
+  #valores .container h1 {
+    font-weight: 800;
+    margin-bottom: 2rem;
+  }
+
+  #valores .container p {
+    width: 30rem;
+    margin-bottom: 2rem;
+  }
+
+  
+  .virtue-text{
+    font-size: var(--text-medium2);
+  }
+
+  /*==== OFFER ============================ */
+
+  #offer {
+    flex-direction: column-reverse;
+  }
+
+  #offer-img {
+    height: 20rem;
+    width: 90%;
+    background-image: url(../images/speed.jpeg);
+    background-size: 100%;
+    background-position: 50% 100%;
+    z-index: 1;
+  }
+  #offer-text {
+    padding-right: 0rem;
+  }
+  #offer-text-area {
+    padding-top: 5rem;
+    margin-top: -3rem;
+    border-radius: 1.5rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 747px){
+  #mission, #gallery{
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #gallery{
+    height: 22rem;
+  }
+
+  #el-1 {
+    top:-120px;
+  }
+
+  #award {
+    grid-template-columns: 1fr;
+    width: 100%;
+    bottom: -14rem;
+  }
+
+  #line-award {
+    height: 2px;
+    width: 100%;
+    background-color: var(--base-color);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  #logo-melhorplano{
+    justify-self: center;
+    width: 70px;
+  }
+
+  #categories {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #categories .categorie:first-child {
+    margin-bottom: 0rem;
+  }
+
+  #offer-img{
+    background-size: cover;
+    height: 15rem;
+  }
+
+  #offer-title{
+    width: 100%;
+  }
+
+  #valores .container p{
+    font-weight: 500;
+  }
+
+
+  #map-img{
+    width: 350px;
+  }
+}
+
+@media (max-width: 577px){
+
+  /*====  MAP ============================ */
+  #map-img {
+    width: 300px;
+  }
+
+  /*==== MISSION ============================ */
+
+  #mission, #gallery {
+    width: 100%;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  #el-1 {
+    top:-90px;
+  }
+
+  #about-award {
+    font-size: var(--text-medium2);
+    font-weight: 600;
+  }
+
+  
+  #categories img {
+    width: 15px;
+    margin-right: 5px;
+  }
+
+  #award{
+    padding: 1rem 1.5rem;
+    bottom: -12rem;
+  }
+
+  /*==== VIRTUE ============================ */
+  #valores {
+    margin-top: 13rem;
+  }
+  #valores .container p {
+    width: 100%;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+
+  #valores .container h1 {
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  .drop img, .drop-green img {
+    width: 30px;
+  }
+
+  /*==== OFFER ============================ */
+  #offer-text {
+    font-size: var(--text-medium);
+  }
+
+  #offer-img{
+    height: 10rem;
+  }
+
+  #offer-text-area {
+    padding: 4rem 1.5rem 2rem 2rem;
+  }
+
+ 
+}
+
+@media (max-width: 425px){
+  #map h1{
+    width: 100%;
+  }
+
+  /*==== MISSION ============================ */
+  #el-1{
+    top: -70px;
+  }
+
+  #gallery {
+    height: 16rem;
+  }
+
+  #categories {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #categories .categorie:first-child {
+    margin-bottom: .5rem;
+  }
+
+  #valores .container p {
+    font-size: var(--text-medium2);
+  }
+
+  #offer-text {
+    font-size: var(--text-medium2);
+  }
+}

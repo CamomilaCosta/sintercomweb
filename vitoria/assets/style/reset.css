@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+/*====  RESET ============================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*====  VARIABLES ============================ */
+:root {
+  --header-height: 5rem;
+  
+  /* text-sizes */
+  --title-size: 2.2rem;
+  --subtitle-size: 1.8rem;
+  --text-big: 1.6rem;
+  --text-medium: 1.5rem;
+  --text-medium2: 1.25rem;
+  --text-medium3: 1.1rem;
+  --text-small: 1rem;
+  --text-extra-small: 0.7rem;
+
+  /* colors */
+  --base-color: #F2F2F2;
+  --purple-base: #572374;
+  --gree-base: #00A651;
+  --base-white: #ffffff;
+  --text-color: rgb(0, 0, 0);
+}
+
+/*===  BASE ============================ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font: 400 1rem 'Montserrat', sans-serif;
+  color: var(--text-color);
+  background: var(--base-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+/*====  LAYOUT ============================ */
+
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+.title {
+  font-size: var(--title-size);
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.title-dark {
+  color: #000;
+}
+
+.title-light {
+  color: var(--base-white);
+}
+
+@media (max-width: 1190px) {
+  .title {
+  margin-bottom: 3rem;
+  }
+  .container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media (max-width: 991px){
+   .container{
+     margin-left: 3rem;
+     margin-right: 3rem;
+  }
+}
+
+@media(max-width: 747px){
+  /*====  VARIABLES ============================ */
+:root {
+  --header-height: 5rem;
+  
+  /* text-sizes */
+  --title-size: 2rem;
+  --subtitle-size: 1.6rem;
+  --text-big: 1.4rem;
+  --text-medium: 1.3rem;
+  --text-medium2: 1.1rem;
+  --text-medium3: 1rem;
+  --text-small: .9rem;
+  --text-extra-small: 0.6rem;
+
+}
+
+.title {
+  margin-bottom: 1.5rem;
+}
+.section {
+  padding: 4rem 0;
+}
+
+}
+
+@media (max-width: 577px){
+  .container{
+    margin-left: 2rem;
+    margin-right: 2rem;
+ }
+
+ :root {
+  --header-height: 4rem;
+  
+  /* text-sizes */
+  --title-size: 1.7rem;
+  --subtitle-size: 1.5rem;
+  --text-big: 1.3rem;
+  --text-medium: 1.2rem;
+  --text-medium2: 1rem;
+  --text-medium3: .9rem;
+  --text-small: .8rem;
+  --text-extra-small: 0.6rem;
+
+}
+.section {
+  padding: 3rem 0;
+}
+}
+

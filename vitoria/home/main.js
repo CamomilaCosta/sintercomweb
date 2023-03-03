@@ -38,11 +38,11 @@ const select = document.querySelectorAll('#city')
 
 for (const op of select) {
   op.addEventListener('click', function () {
-    if (op.value == 'vitoria') {
-      window.open('../../vitoria/home/sinter.html', '_self')
+    if (op.value == 'rio') {
+      window.open('../../rj/home/sinter.html', '_self')
     }
     if (op.value == 'joao-pessoa') {
-      window.open('../contact/index.html', '_self')
+      window.open('../../jp/home/sinter.html', '_self')
     }
   })
 }

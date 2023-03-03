@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--icons-->
+    <link rel="stylesheet" href="assets/icons/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--swiper-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!--style-->
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="../assets/style/reset.css" />
+    <!--style footer-->
+    <link rel="stylesheet" href="../footer/style.css" />
+
+    <!--Cabeçalho-->
+    <link rel="stylesheet" href="../header/style.css" />
+    <link rel="stylesheet" href="../header/icons/style.css" />
+
+    <title>Sintercom</title>
+  </head>
+  <body>
+    <!--Cabeçalho-->
+    <header>
+      <my-header></my-header>
+      
+    </header>
+
+    <!--Banners-->
+    <section id="banners">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div id="banner1"></div>
+          </div>
+          <div class="swiper-slide">
+            <div id="banner2"></div>
+          </div>
+          <div class="swiper-slide">
+            <div id="banner3"></div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <div class="elipse">
+          <img
+            id="elipse-top"
+            src="assets/image/elipse/Ellipse 19 (2).png"
+            alt=""
+          />
+          <img
+            id="elipse-carousel"
+            src="assets/image/elipse/Ellipse 20.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <!--elipse-->
+    </section>
+
+    <!--PLANOS-->
+    <section id="plans">
+      <div class="container section">
+        <div id="plans-info">
+          <h1 class="title title-dark">Escolha o melhor plano para você!</h1>
+          <h2 id="text-plans">
+            Internet com alta velocidade e estabilidade para você navegar à
+            vontade, trabalhar, estudar online, jogar, assistir filmes e séries.
+          </h2>
+          <div id="select-city">
+            <label for="select">Trocar cidade atual</label>
+            <select name="city" id="city">
+              <option id="rio" value="rio">Rio de Janeiro - RJ</option>
+              <option id="vitoria" selected value="vitoria">Vitória - ES</option>
+              <option id="jp" value="joao-pessoa">João Pessoa - PB</option>
+            </select>
+          </div>
+        </div>
+        <div id="plans-cards">
+          <div id="c1">
+            <div class="card">
+              <h3 class="name">GO</h3>
+              <div class="card-contend">
+                <div class="mega">500 MEGAS</div>
+                <div class="beficities">
+                  <ul>
+                    <li>- Roteador em comodato</li>
+                    <li>- Carência de 12 meses</li>
+                    <li>- 100% Fibra óptica</li>
+                    <li>- Sem limites</li>
+                  </ul>
+                </div>
+                <div class="price">
+                  <p>R$ 99,90<span>/por mês</span></p>
+                </div>
+                <div class="button"><a target="_blank" href="../contact/index.html">Assinar</a></div>
+              </div>
+            </div>
+          </div>
+          <div id="c2">
+            <div class="card">
+              <h3 class="name">MNEXT</h3>
+              <div class="card-contend">
+                <div class="mega">600 MEGAS</div>
+                <div class="beficities">
+                  <ul>
+                    <li>- Roteador em comodato</li>
+                    <li>- Carência de 12 meses</li>
+                    <li>- 100% Fibra óptica</li>
+                    <li>- Sem limites</li>
+                  </ul>
+                </div>
+                <div class="price">
+                  <p>R$ 100,90<span>/por mês</span></p>
+                </div>
+                <div class="button"><a target="_blank" href="../contact/index.html"">Assinar</a></div>
+              </div>
+            </div>
+          </div>
+          <div id="c3">
+            <div class="card">
+              <h3 class="name">BRONZE+</h3>
+              <div class="card-contend">
+                <div class="mega">700 MEGAS</div>
+                <div class="beficities">
+                  <ul>
+                    <li>- Roteador em comodato</li>
+                    <li>- Carência de 12 meses</li>
+                    <li>- 100% Fibra óptica</li>
+                    <li>- Sem limites</li>
+                  </ul>
+                </div>
+                <div class="price">
+                  <p>R$ 119,90<span>/por mês</span></p>
+                </div>
+                <div class="button"><a target="_blank" href="../contact/index.html">Assinar</a></div>
+              </div>
+            </div>
+          </div>
+          <div id="c4">
+            <div class="card">
+              <h3 class="name">SILVER+</h3>
+              <div class="card-contend">
+                <div class="mega">800 MEGAS</div>
+                <div class="beficities">
+                  <ul>
+                    <li>- Roteador em comodato</li>
+                    <li>- Carência de 12 meses</li>
+                    <li>- 100% Fibra óptica</li>
+                    <li>- Sem limites</li>
+                  </ul>
+                </div>
+                <div class="price">
+                  <p>R$ 129,90<span>/por mês</span></p>
+                </div>
+                <div class="button"><a target="_blank" href="../contact/index.html">Assinar</a></div>
+              </div>
+            </div>
+          </div>
+          <div id="c5">
+            <div class="card">
+              <h3 class="name">GOLD+</h3>
+              <div class="card-contend">
+                <div class="mega">1000 MEGAS</div>
+                <div class="beficities" id="benefi-gold">
+                  <ul>
+                    <li>- Roteador em comodato</li>
+                    <li>- Carência de 12 meses</li>
+                    <li>- 100% Fibra óptica</li>
+                    <li>- Sem limites</li>
+                    <li>- Fixo com 100 minutos</li>
+                  </ul>
+                </div>
+                <div class="price">
+                  <p>R$ 159,90<span>/por mês</span></p>
+                </div>
+                <div class="button"><a target="_blank" href="../contact/index.html">Assinar</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="plan-contact">
+          <h3>Quer mais opções?</h3>
+          <a href="../contact/index.html">Consulte-nos</a>
+        </div>
+      </div>
+    </section>
+    <section id="company">
+      <img
+        id="company-bg"
+        src="assets/image/bg/technology circuit.png"
+        alt=""
+      />
+      <div class="container section company">
+        <h1 class="title title-light">Sua empresa merece o melhor!</h1>
+        <div class="plans-company-contend">
+          <div id="img-woman">
+            <img src="assets/image/people/company-woman.png" alt="" />
+          </div>
+          <div class="plans-info">
+            <div id="banda">
+              <div id="banda-top">
+                <h2>Banda larga</h2>
+                <a href="../banda larga/index.html"
+                  ><span class="icon-right-arrow"></span
+                ></a>
+              </div>
+              <div id="banda-text">
+                Alta qualidade para o seu negócio nunca perder
+                <span>produtividade!</span>
+              </div>
+            </div>
+            <div id="link">
+              <div id="link-top">
+                <h2>Link Dedicado</h2>
+                <a href="../link dedicado/index.html"
+                  ><span class="icon-right-arrow"></span
+                ></a>
+              </div>
+              <div id="link-text">
+                Para a velocidade da sua internet corporativa atingir
+                <span>outro nível!</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="benefits">
+      <div class="container section">
+        <h1 class="title title-dark">Por que escolher a Sintercom?</h1>
+        <div id="cards-benefits">
+          <div class="card-benefits">
+            <div class="card-benefits-top">
+              <div class="wifi-icon">
+                <img src="assets/icons/wifi dv2.png" alt="" />
+                <img src="assets/icons/wifi dv2.png" alt="" />
+                <img src="assets/icons/wifi dv2.png" alt="" />
+                <img src="assets/icons/wifi dv2.png" alt="" />
+              </div>
+              <span class="icon-fast"></span>
+              <h2>Muita Velocidade</h2>
+            </div>
+            <div class="cards-benefits-text">
+              Estamos diretamente conectados aos principais conteúdos e
+              operadoras do mundo para garantir que sua experiência de navegação
+              seja incrível.
+            </div>
+          </div>
+          <div class="card-benefits">
+            <div class="card-benefits-top">
+              <div class="wifi-icon">
+                <img src="assets/icons/wifi dv2.png" alt="" />
+                <img src="assets/icons/wifi dv2.png" alt="" />
+                <img src="assets/icons/wifi dv2.png" alt="" />
+                <img src="assets/icons/wifi dv2.png" alt="" />
+              </div>
+              <span class="icon-suporte-tecnico"></span>
+              <h2>Suporte Técnico</h2>
+            </div>
+            <div class="cards-benefits-text">
+              Qualidade e agilidade de atendimento com equipe treinada para
+              atender 24 horas por dia.
+            </div>
+          </div>
+          <div class="card-benefits">
+            <div class="card-benefits-top">
+              <div class="wifi-icon">
+                <img src="assets/icons/wifi dv2.png" alt="" />
+                <img src="assets/icons/wifi dv2.png" alt="" />
+                <img src="assets/icons/wifi dv2.png" alt="" />
+                <img src="assets/icons/wifi dv2.png" alt="" />
+              </div>
+              <span class="icon-unlimited-storage"></span>
+              <h2>Sem Limites</h2>
+            </div>
+            <div class="cards-benefits-text">
+              Não existe qualquer tipo de franquia limitando a sua utilização.
+              Com a Sintecom você não tem restrição!
+            </div>
+          </div>
+          <div class="card-benefits">
+            <div class="card-benefits-top">
+              <div class="wifi-icon">
+                <img src="assets/icons/wifi dv2.png" alt="" />
+                <img src="assets/icons/wifi dv2.png" alt="" />
+                <img src="assets/icons/wifi dv2.png" alt="" />
+                <img src="assets/icons/wifi dv2.png" alt="" />
+              </div>
+              <span class="icon-upload-file"></span>
+              <h2>Super Upload</h2>
+            </div>
+            <div class="cards-benefits-text">
+              Temos a maior taxa de upload para enviar seus arquivos com mais
+              velocidade. Excelente para enviar arquivos grandes.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="social">
+      <div class="container social">
+        <div id="social-contend">
+          <h1 class="title title-light">
+            Siga nossas redes sociais para ficar por dentro das novidades!
+          </h1>
+          <div id="social-link">
+            <a target="_blank" href="https://www.instagram.com/sintercom.vix/"
+              ><span class="icon-instagram"></span
+            ></a>
+            <a target="_blank" href="https://www.facebook.com/sintercomes"
+              ><span class="icon-facebook"></span
+            ></a>
+          </div>
+        </div>
+        <div id="social-img">
+          <img src="assets/image/people/company-woman.png" alt="" />
+        </div>
+      </div>
+      <img
+        id="bg-social"
+        src="assets/image/bg/kisspng-social-media-digital-marketing-social-network-5ac6d6293d6a87.2635038715229803932516.png"
+        alt=""
+      />
+    </section>
+    <section id="testimonials">
+      <div class="container section">
+        <h1 class="title title-dark">Veja o que dizem nossos clientes</h1>
+        <div id="testimonals-cards" class="swiper-testmonials">
+          <div class="swiper-wrapper">
+            <div class="testimonial-card swiper-slide">
+              <div class="client-info">
+                <div class="client-img"></div>
+                <div class="client-name">Lucas Brandão</div>
+                <span class="icon-quote"></span>
+              </div>
+              <div class="client-text">
+                Internet perfeita para o meu comércio, consigo usar a maquininha e o wifi sem problemas!
+              </div>
+              <div class="cliente-rate">
+                <span class="icon-star"></span>
+                <span class="icon-star"></span>
+                <span class="icon-star"></span>
+                <span class="icon-star"></span>
+                <span class="icon-star"></span>
+              </div>
+            </div>
+            <div class="testimonial-card swiper-slide">
+              <div class="client-info">
+                <div class="client-img"></div>
+                <div class="client-name">Darlene Lima</div>
+                <span class="icon-quote"></span>
+              </div>
+              <div class="client-text">
+               Consigo assistir aulas da faculdade de forma fluida, sem interrupção e consigo ver minhas séries sem travar
+              </div>
+              <div class="cliente-rate">
+                <span class="icon-star"></span>
+                <span class="icon-star"></span>
+                <span class="icon-star"></span>
+                <span class="icon-star"></span>
+                <span class="icon-star"></span>
+              </div>
+            </div>
+            <div class="testimonial-card swiper-slide">
+              <div class="client-info">
+                <div class="client-img"></div>
+                <div class="client-name">Rute Alves</div>
+                <span class="icon-quote"></span>
+              </div>
+              <div class="client-text">
+              WhatsApp sempre funcionando e consigo fazer chamada de video sem cortar.
+              </div>
+              <div class="cliente-rate">
+                <span class="icon-star"></span>
+                <span class="icon-star"></span>
+                <span class="icon-star"></span>
+                <span class="icon-star"></span>
+                <span class="icon-star"></span>
+              </div>
+            </div>
+            <div class="testimonial-card swiper-slide">
+              <div class="client-info">
+                <div class="client-img"></div>
+                <div class="client-name">Milena de Sá</div>
+                <span class="icon-quote"></span>
+              </div>
+              <div class="client-text">
+               Internet incrível mesmo com vários equipamentos conectados, não trava e funciona na Alexa e Tv Smart
+              </div>
+              <div class="cliente-rate">
+                <span class="icon-star"></span>
+                <span class="icon-star"></span>
+                <span class="icon-star"></span>
+                <span class="icon-star"></span>
+                <span class="icon-star"></span>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      
+      <my-footer></my-footer>
+    </footer>
+    <!--swiper-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!--script-->
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/htmlincludejs"></script>
+
+    <!--Cabeçalho-->
+    <script src="../header/header.js"></script>
+    <script src="../header/main.js"></script>
+
+    <!--footer-->
+    <script src="../footer/footer.js"></script>
+    <script src="../footer/main.js"></script>
+  </body>
+</html>
