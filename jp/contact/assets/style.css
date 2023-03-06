@@ -1,6 +1,4 @@
 
-
-
 /*====  FORM ============================ */
 
 #form{
@@ -105,7 +103,7 @@
   width: 100%;
   background-image: url('images/loc.png');
   background-position: center;
-  background-size: cover;
+  background-size: 120%;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.243);
 }
 
@@ -214,6 +212,7 @@
   #form img {
     max-width: 100%;
   }
+
   /*====  FAQ ============================ */
   .answer {
     width: 97%;}
@@ -226,6 +225,12 @@
   }
 
   /*====  MAP ============================ */
+  #map-bg #map{
+    background-image: url('images/loc.png');
+    background-position: 10% 50%;
+    background-size: 150%;
+  }
+  
   #map-bg #card{
     width: 350px;
   }
@@ -247,6 +252,9 @@
   #map-bg #map {
     display: block;
     height: 600px;
+    background-position: 20% 50%;
+    background-size: 220%;
+
   }
 
   #map-bg #card {
@@ -333,7 +341,9 @@
   }
 
   #map-bg #map {
-    background-position: 57% 50%;
+   background-position: 45% 50%;
+    background-size: 320%;
+    
   }
 
   .ask {
