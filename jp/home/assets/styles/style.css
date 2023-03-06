@@ -726,9 +726,11 @@ margin-right: 2rem;
   width: 3rem;
   height: 3rem;
   border-radius: 1.5rem;
-  background-color: rgb(175, 174, 174);
   border: 2px solid var(--purple-base);
-  background-image: url(../image/logos/logo 4.png);
+  background-image: url('../image/logos/logo 1.png');
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .client-name{
