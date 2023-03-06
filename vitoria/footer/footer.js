@@ -45,9 +45,9 @@ class MyFooter extends HTMLElement {
           <div id="enjoy">
             <h2>Aproveite</h2>
             <ul>
-            <a href="../banda larga/index.html"><li>Nossos Planos</li></a> 
+            <a href="../home/sinter.html#plans"><li>Nossos Planos</li></a> 
             <a href="../contact/index.html"><li>Assine Agora</li></a> 
-            <a href="../link dedicado/index.html"><li>Para Empresas</li></a> 
+            <a href="../home/sinter.html#company"><li>Para Empresas</li></a> 
             </ul>
           </div>
           <div id="sintercom-info">
