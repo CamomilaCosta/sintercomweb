@@ -150,6 +150,11 @@ ul li a:hover{
 
 @media (max-width: 999px) {
 
+  body {
+    height: 100vh;
+    overflow: hidden;
+  }
+
   .bg_items {
    flex-direction: column;
   }
@@ -177,13 +182,15 @@ ul li a:hover{
     left: 0;
     justify-content: flex-start;
     margin-top: 20%;
-    aling-items: center;
+    z-index: 20;
+    align-items: center;
   }
 
   #bg_imgs #woman {
     position: absolute;
     bottom: -90px;
     right: 100px;
+    
   }
 
   #bg_imgs #purple{
@@ -241,7 +248,7 @@ ul li a:hover{
 
 @media (max-width: 599px){
   #bg_imgs #woman {
-    height: 60%;
+    height: 400px;
     right: 40px;
   }
 
@@ -284,8 +291,18 @@ ul li a:hover{
 
 @media (max-width: 399px){
   #logo img {
-    width: 350px;
+    width: 180px;
   }
+
+  #bg_imgs #woman {
+    height: 340px;
+    right: 0px;
+  }
+
+  #bg_imgs #purple{
+    bottom: -200px;
+  }
+
 
   #go_sintercom #go {
     left: 25px;
