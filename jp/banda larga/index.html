@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../assets/style/reset.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Footer-->
+    <link rel="stylesheet" href="../footer/style.css" />
+    <link rel="stylesheet" href="../home/assets/icons/style.css" />
+
+    <!--Cabeçalho-->
+    <link rel="stylesheet" href="../header/style.css" />
+    <link rel="stylesheet" href="../header/icons/style.css" />
+    <title>Banda Larga</title>
+  </head>
+  <body>
+    <header>
+      <!--Cabeçalho-->
+      <my-header></my-header>
+    </header>
+    <main>
+      <section id="plans">
+        <div class="container section">
+          <div id="plans-info">
+            <h1 class="title title-dark">Escolha o melhor plano para você!</h1>
+            <h2 id="text-plans">
+              Internet com alta velocidade e estabilidade para você navegar à
+              vontade, trabalhar, estudar online, jogar, assistir filmes e
+              séries.
+            </h2>
+            <div id="select-city">
+              <label for="select">Trocar cidade atual</label>
+              <select name="city" id="city">
+                <option selected value="rio">Rio de Janeiro - RJ</option>
+
+                <option value="vitoria">Vitória - ES</option>
+
+                <option value="joao-pessoa">João Pessoa - PB</option>
+              </select>
+            </div>
+          </div>
+          <div id="plans-cards">
+            <div id="c1">
+              <div class="card">
+                <h3 class="name">GO</h3>
+                <div class="card-contend">
+                  <div class="mega">500 MEGAS</div>
+                  <div class="beficities">
+                    <ul>
+                      <li>- Roteador em comodato</li>
+                      <li>- Carência de 12 meses</li>
+                      <li>- 100% Fibra óptica</li>
+                      <li>- Sem limites</li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <p>R$ 99,90<span>/por mês</span></p>
+                  </div>
+                  <div class="button">
+                    <a href="../contact/index.html">Assinar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="c2">
+              <div class="card">
+                <h3 class="name">MNEXT</h3>
+                <div class="card-contend">
+                  <div class="mega">600 MEGAS</div>
+                  <div class="beficities">
+                    <ul>
+                      <li>- Roteador em comodato</li>
+                      <li>- Carência de 12 meses</li>
+                      <li>- 100% Fibra óptica</li>
+                      <li>- Sem limites</li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <p>R$ 100,90<span>/por mês</span></p>
+                  </div>
+                  <div class="button">
+                    <a href="../contact/index.html">Assinar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="c3">
+              <div class="card">
+                <h3 class="name">BRONZE+</h3>
+                <div class="card-contend">
+                  <div class="mega">700 MEGAS</div>
+                  <div class="beficities">
+                    <ul>
+                      <li>- Roteador em comodato</li>
+                      <li>- Carência de 12 meses</li>
+                      <li>- 100% Fibra óptica</li>
+                      <li>- Sem limites</li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <p>R$ 119,90<span>/por mês</span></p>
+                  </div>
+                  <div class="button">
+                    <a href="../contact/index.html">Assinar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="c4">
+              <div class="card">
+                <h3 class="name">SILVER+</h3>
+                <div class="card-contend">
+                  <div class="mega">800 MEGAS</div>
+                  <div class="beficities">
+                    <ul>
+                      <li>- Roteador em comodato</li>
+                      <li>- Carência de 12 meses</li>
+                      <li>- 100% Fibra óptica</li>
+                      <li>- Sem limites</li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <p>R$ 129,90<span>/por mês</span></p>
+                  </div>
+                  <div class="button">
+                    <a href="../contact/index.html">Assinar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="c5">
+              <div class="card">
+                <h3 class="name">GOLD+</h3>
+                <div class="card-contend">
+                  <div class="mega">1000 MEGAS</div>
+                  <div class="beficities" id="benefi-gold">
+                    <ul>
+                      <li>- Roteador em comodato</li>
+                      <li>- Carência de 12 meses</li>
+                      <li>- 100% Fibra óptica</li>
+                      <li>- Sem limites</li>
+                      <li>- Fixo com 100 minutos</li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    <p>R$ 159,90<span>/por mês</span></p>
+                  </div>
+                  <div class="button">
+                    <a href="../contact/index.html">Assinar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="plan-contact">
+            <h3>Quer mais opções?</h3>
+            <a href="../contact/index.html">Consulte-nos</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <my-footer></my-footer>
+    </footer>
+    <script src="main.js"></script>
+    <!--header-->
+    <script src="../header/header.js"></script>
+    <script src="../header/main.js"></script>
+    <!--footer-->
+    <script src="../footer/footer.js"></script>
+    <script src="../footer/main.js"></script>
+  </body>
+</html>

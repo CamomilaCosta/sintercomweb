@@ -39,10 +39,10 @@ const select = document.querySelectorAll('#city')
 for (const op of select) {
   op.addEventListener('click', function () {
     if (op.value == 'rio') {
-      window.open('../../rj/home/sinter.html', '_self')
+      window.open('../../rj/home/sinter.html#plans', '_self')
     }
     if (op.value == 'joao-pessoa') {
-      window.open('../../jp/home/sinter.html', '_self')
+      window.open('../../jp/home/sinter.html#plans', '_self')
     }
   })
 }

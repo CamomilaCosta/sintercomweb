@@ -30,14 +30,14 @@ class MyHeader extends HTMLElement {
             <a href="../../index.html">
               <div class="location">
                <span class="icon-location2"></span>
-               <p>Vitória</p>
+               <p>João Pessoa - PB</p>
               </div>
              </a>
             <div id="social-menu">
               <p>Siga nossas redes sociais</p>
               <div id="social-icon">
-                <a target="_blank" href="https://www.facebook.com/sintercomes/"><span class="icon-facebook"></span></a>
-                <a target="_blank" href="https://www.instagram.com/sintercom.vix/"><span class="icon-instagram"></span></a>
+                <a target="_blank" href="https://www.facebook.com/Sintercom"><span class="icon-facebook"></span></a>
+                <a target="_blank" href="https://www.instagram.com/sintercom.jp/"><span class="icon-instagram"></span></a>
               </div>
             </div>
           </div>

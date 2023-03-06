@@ -41,8 +41,8 @@ for (const op of select) {
     if (op.value == 'vitoria') {
       window.open('../../vitoria/home/sinter.html#plans', '_self')
     }
-    if (op.value == 'joao-pessoa') {
-      window.open('../../jp/home/sinter.html#plans', '_self')
+    if (op.value == 'rio') {
+      window.open('../../rj/home/sinter.html#plans', '_self')
     }
   })
 }
