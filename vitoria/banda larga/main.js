@@ -17,3 +17,16 @@ for (const card of cards) {
     this.querySelector('.price p').classList.remove('text-active')
   })
 }
+
+const select = document.querySelectorAll('#city')
+
+for (const op of select) {
+  op.addEventListener('click', function () {
+    if (op.value == 'rio') {
+      window.open('../../rj/banda larga/index.html', '_self')
+    }
+    if (op.value == 'joao-pessoa') {
+      window.open('../../jp/banda larga/index.html', '_self')
+    }
+  })
+}

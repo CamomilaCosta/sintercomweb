@@ -112,11 +112,13 @@ my-go-top span{
   transition: .2s;
   color: var(--base-white);
 }
+
 .ctt:hover, #enjoy ul li:hover{
   color: var(--gree-base);
   cursor: pointer;
   transition: .2s;
 }
+
 .ctt span{
   margin-right: 1rem;
 }

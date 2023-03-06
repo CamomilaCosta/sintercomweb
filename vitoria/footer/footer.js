@@ -18,12 +18,16 @@ class MyFooter extends HTMLElement {
           <div id="contact-footer">
             <h2>Fale Conosco</h2>
             
-            <a target="_blank" href="tel:+552740421490">
-              <div class="ctt" id="phone">
-                <span class="icon-phone-call"></span>
-                <p>(27) 4042-1490</p>
+            <div id="phone">
+                <a class="ctt" target="_blank" href="tel:+552740421491">
+                  <span class="icon-phone-call"></span>
+                  <p>(27) 4042-1490</p>
+                </a>
+                <a class="ctt" target="_blank" href="tel:+552740421491">
+                  <span class="icon-phone-call"></span>
+                  <p>(27) 4042-1491</p>
+                </a> 
               </div>
-            </a>
             
             <a target="_blank" href="https://wa.me/5527992514685">
               <div class="ctt id="wpp">
