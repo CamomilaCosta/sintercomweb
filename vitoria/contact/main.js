@@ -32,7 +32,7 @@ function abrirWhatsapp() {
   var email = document.getElementById('email').value
   var msg = document.getElementById('story').value
   var url =
-    'https://wa.me/+558386613208?text=' + // Seu numero
+    'https://wa.me/5527992514685?text=' + // Seu numero
     '*Formulário de Contato*' +
     '%0a' + // Mensagem personalizada
     '%0a' + // Quebra de linha

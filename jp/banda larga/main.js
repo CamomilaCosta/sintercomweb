@@ -24,8 +24,8 @@ for (const op of select) {
     if (op.value == 'vitoria') {
       window.open('../../vitoria/banda larga/index.html', '_self')
     }
-    if (op.value == 'joao-pessoa') {
-      window.open('../../jp/banda larga/index.html', '_self')
+    if (op.value == 'rio') {
+      window.open('../../rj/banda larga/index.html', '_self')
     }
   })
 }
