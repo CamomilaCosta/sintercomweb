@@ -34,7 +34,7 @@ const swipertest = new Swiper('.swiper-testmonials', {
   }
 })
 
-const select = document.querySelectorAll('#city')
+const select = document.querySelectorAll('#city option')
 
 for (const op of select) {
   op.addEventListener('click', function () {
