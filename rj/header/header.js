@@ -51,7 +51,7 @@ class MyHeader extends HTMLElement {
 
       <!--Botão de login-->
       <div id="login">
-        <a href="https://centraldoassinante.sintnet.com.br/radiusnet/cda/login.php ">
+        <a href="https://centraldoassinante.sintnet.com.br/radiusnet/cda/login.php">
           <p>Área do Cliente</p>
           <span class="icon-user"></span>
         </a>
