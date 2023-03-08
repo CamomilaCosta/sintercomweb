@@ -34,18 +34,16 @@ const swipertest = new Swiper('.swiper-testmonials', {
   }
 })
 
-const select = document.querySelectorAll('#city option')
+const select = document.querySelector('#city')
 
-for (const op of select) {
-  op.addEventListener('click', function () {
-    if (op.value == 'vitoria') {
-      window.open('../../vitoria/home/sinter.html#plans', '_self')
-    }
-    if (op.value == 'joao-pessoa') {
-      window.open('../../jp/home/sinter.html#plans', '_self')
-    }
-  })
-}
+select.addEventListener('change', function () {
+  if (select.value == 'vitoria') {
+    window.open('../../vitoria/home/sinter.html#plans', '_self')
+  }
+  if (select.value == 'joao-pessoa') {
+    window.open('../../jp/home/sinter.html#plans', '_self')
+  }
+})
 
 const cards = document.querySelectorAll('.card')
 const names = document.querySelectorAll('.name')
