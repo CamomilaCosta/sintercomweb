@@ -17,15 +17,13 @@ for (const card of cards) {
     this.querySelector('.price p').classList.remove('text-active')
   })
 }
-const select = document.querySelectorAll('#city')
+const select = document.querySelector('#city')
 
-for (const op of select) {
-  op.addEventListener('click', function () {
-    if (op.value == 'vitoria') {
-      window.open('../../vitoria/banda larga/index.html', '_self')
-    }
-    if (op.value == 'rio') {
-      window.open('../../rj/banda larga/index.html', '_self')
-    }
-  })
-}
+select.addEventListener('click', function () {
+  if (select.value == 'vitoria') {
+    window.open('../../vitoria/banda larga/index.html', '_self')
+  }
+  if (select.value == 'rio') {
+    window.open('../../rj/banda larga/index.html', '_self')
+  }
+})
