@@ -51,7 +51,7 @@ class MyHeader extends HTMLElement {
 
       <!--Botão de login-->
       <div id="login">
-        <a href="">
+        <a href="https://sintercom.sgp.net.br/central">
           <p>Área do Cliente</p>
           <span class="icon-user"></span>
         </a>
