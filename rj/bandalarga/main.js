@@ -21,9 +21,9 @@ const select = document.querySelector('#city')
 
 select.addEventListener('change', function () {
   if (select.value == 'vitoria') {
-    window.open('../../vitoria/banda larga/index.html', '_self')
+    window.open('../../vitoria/bandalarga/index.html', '_self')
   }
   if (select.value == 'joao-pessoa') {
-    window.open('../../jp/banda larga/index.html', '_self')
+    window.open('../../jp/bandalarga/index.html', '_self')
   }
 })

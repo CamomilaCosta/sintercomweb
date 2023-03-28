@@ -21,9 +21,9 @@ const select = document.querySelector('#city')
 
 select.addEventListener('click', function () {
   if (select.value == 'vitoria') {
-    window.open('../../vitoria/banda larga/index.html', '_self')
+    window.open('../../vitoria/bandalarga/index.html', '_self')
   }
   if (select.value == 'rio') {
-    window.open('../../rj/banda larga/index.html', '_self')
+    window.open('../../rj/bandalarga/index.html', '_self')
   }
 })
