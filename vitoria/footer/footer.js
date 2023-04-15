@@ -7,7 +7,7 @@ class MyFooter extends HTMLElement {
     </my-go-top>
     
       <div id="fixed-wpp">
-      <a href="https://wa.me/5527992514685" target="_blank"><span class="icon-whatsapp"></span></a>
+      <a href="https://wa.me/5521996707806" target="_blank"><span class="icon-whatsapp"></span></a>
       </div>
     
     </div>
@@ -29,10 +29,10 @@ class MyFooter extends HTMLElement {
                 </a> 
               </div>
             
-            <a target="_blank" href="https://wa.me/5527992514685">
+            <a target="_blank" href="https://wa.me/5521996707806">
               <div class="ctt id="wpp">
                 <span class="icon-whatsapp"></span>
-                <p>(27) 99251-4685</p>
+                <p>(21) 99670-7806</p>
               </div>
             </a>
             <a target="_blank" href="https://www.google.com/maps/place/Av.+Central,+1525+-+Parque+Res.+Laranjeiras,+Serra+-+ES,+29165-130/@-20.1945655,-40.2637368,13.81z/data=!4m6!3m5!1s0xb81edd51251c33:0xd373d379ee9bbe97!8m2!3d-20.1954047!4d-40.2581686!16s%2Fg%2F11cnd8fkcj">
