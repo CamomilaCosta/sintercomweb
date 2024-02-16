@@ -1,0 +1,126 @@
+/*============== DESCRIPTION LINK ==============*/
+
+#description{
+  background-color: var(--purple-base);
+  position: relative;
+}
+
+#description-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#description-text-area{
+  color: var(--base-white);
+}
+
+#description-text-area{
+  max-width: 50%;
+}
+
+#description-title{
+  font-size: var(--title-size);
+  font-weight: 700;
+}
+
+#line-description{
+  width: 10rem;
+  height: 2px;
+  background-color: var(--gree-base);
+  margin-top: .8rem;
+  margin-bottom: .8rem;
+}
+
+#description-text{
+  font-size: var(--text-medium2);
+  margin-bottom: 1.8rem;
+}
+
+lottie-player{
+  transform: scale(1.2);
+  margin-right: .5rem;
+  width: 500px;
+  height: auto;
+}
+
+
+#elipse{
+  position: absolute;
+  height: fit-content;
+  min-width: 100%;
+  z-index: -1;
+  
+}
+
+#elipse img{
+  min-width: 100%;
+
+}
+
+/*============== DESCRIPTION LINK ==============*/
+
+#service-card{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.right {
+  flex-direction: row-reverse;
+}
+
+#service-img{
+  background-image: url(assets/img/fibra-optica.png);
+  height: 95%;
+  min-width: 350px;
+  background-size: 250%;
+  background-position: 56%;
+  background-repeat: no-repeat;
+  border-radius: 1.5rem;
+  box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.255);
+}
+.right #service-text-area{
+  align-items: flex-start;
+  text-align: left;
+  border-radius: 1.5rem 0rem 0rem 1.5rem;
+}
+
+#service-text-area{
+  background-color: var(--base-white);
+  height: 85%;
+  box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.255);
+  padding: 2rem 3rem;
+  border-radius: 0rem 1.5rem 1.5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+}
+
+#service-title{
+  font-size: var(--title-size);
+  width:70%;
+  font-weight: 800;
+}
+
+#service-title span{
+  color: var(--gree-base);
+}
+
+#service-line{
+  width: 10rem;
+  min-height: 2px;
+  background-color: var(--gree-base);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#services-text{
+  font-size: var(--text-medium2);
+  font-weight: 500;
+  padding-left: 2.5rem;
+}
+

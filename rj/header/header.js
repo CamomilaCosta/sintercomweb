@@ -24,6 +24,7 @@ class MyHeader extends HTMLElement {
             </li>
            
             <a href="../about/index.html"><li>Sobre Nós</li></a>
+            <a href="../solutions/index.html"><li>Solutions</li></a>
             <a href="../contact/index.html"><li>Contato</li></a>
           </ul>
           <div id="info-mobile">
