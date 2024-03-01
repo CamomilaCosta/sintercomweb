@@ -899,9 +899,14 @@ position: relative;
 }
 
 #c1, #c2, #c3, #c4, #c5{
-  width: 20rem;
-  height: 25rem;
+  width: 22rem;
+  height: 29rem;
 }
+
+#plans-cards {
+  padding: 0 0rem;
+}
+
  /*==== PLANOS EMPRESARIAIS ============================ */
 .plans-company-contend{
   flex-direction: column;
@@ -990,6 +995,10 @@ position: relative;
     margin-bottom: 1rem;
   }
 
+  #plans-cards {
+    grid-template-columns: 1fr;
+  }
+
   #text-plans {
     padding: 0 0rem;
  }
@@ -1005,8 +1014,8 @@ position: relative;
 
 
   #c1, #c2, #c3, #c4, #c5 {
-    width: 15rem;
-    height: 25rem;
+    width: 17rem;
+    height: 30rem;
   }
 
   #c5{
@@ -1015,8 +1024,8 @@ position: relative;
   }
 
   .card {
-    height: 22rem;
-    width: 13rem;
+    height: 27rem;
+    width: 16rem;
   }
 
   .card .name{
