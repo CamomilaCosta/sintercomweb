@@ -236,7 +236,7 @@ margin-bottom: -0.8rem;
 
 #c1, #c2, #c3, #c4{
   width: 17rem;
-  height: 27rem;
+  height: 30rem;
   display: flex;
   align-self: center;
   justify-content: center;
@@ -252,8 +252,8 @@ margin-bottom: -0.8rem;
 }
 
 .card {
-  height: 25.5rem;
-  width: 14.4rem;
+  height: 29.5rem;
+  width: 15.4rem;
   border: 2px solid var(--purple-base);
   border-radius: 20px;
   background-color: var(--base-white);
@@ -295,7 +295,7 @@ margin-bottom: -0.8rem;
 }
 
 .card .card-content .beneficities #benefi-gold ul{
-	height: 90px;
+	height: 150px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -916,12 +916,12 @@ position: relative;
 
 #c1, #c2, #c3, #c4{
   width: 20rem;
-  height: 28rem;
+  height: 30rem;
 }
 
 .card {
-  height: 25.5rem;
-  width: 16.4rem;
+  height: 27.5rem;
+  width: 17.4rem;
 }
  /*==== PLANOS EMPRESARIAIS ============================ */
 .plans-company-contend{
@@ -1023,7 +1023,7 @@ position: relative;
 
   #c1, #c2, #c3, #c4{
     width: 15rem;
-    height: 25rem;
+    height: 28rem;
   }
 
   #plans-cards {
@@ -1033,8 +1033,8 @@ position: relative;
   }
   
   .card {
-    height: 23.5rem;
-    width: 13.4rem;
+    height: 26.5rem;
+    width: 14.4rem;
   }
 
   .card .card-contend {
@@ -1158,6 +1158,16 @@ position: relative;
     transform: rotate(160deg) translate(-180%,-400%);
     transition: .5s;
   }
+
+  #c1, #c2, #c3, #c4{
+    width: 20rem;
+    height: 30rem;
+  }
+  
+  .card {
+    height: 25.5rem;
+    width: 15.4rem;
+  }
 }
 
 @media(max-width: 574px){
@@ -1270,8 +1280,8 @@ position: relative;
 }
 
 .card {
-  height: 23.5rem;
-  width: 13rem;
+  height: 24.5rem;
+  width: 14rem;
 }
 
 .card .card-contend {
