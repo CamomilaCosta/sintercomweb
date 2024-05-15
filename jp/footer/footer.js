@@ -27,7 +27,7 @@ class MyFooter extends HTMLElement {
             <a target="_blank" href="https://www.google.com/maps/place/R.+Pres.+Ranieri+Mazilli,+612+-+Cristo+Redentor,+Jo%C3%A3o+Pessoa+-+PB,+58071-000/@-7.1636112,-34.8701368,17z/data=!3m1!4b1!4m6!3m5!1s0x7ace9d3f8a26375:0xaeb575abcacc62eb!8m2!3d-7.1636165!4d-34.8679481!16s%2Fg%2F11cpb_k_gw">
               <div class="ctt id="adress">
                 <span class="icon-location"></span>
-                <p>Av. Pres. Ranieri Mazilli, 612 - Cristo Redentor</p>
+                <p>Av. Minas Gerais, 300 - Estados João Pessoa - PB, 58030-090</p>
               </div>
             </a>
           </div>

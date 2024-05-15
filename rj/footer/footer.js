@@ -55,7 +55,7 @@ class MyFooter extends HTMLElement {
             <ul>
               <li>© 2023 - Sintercom Fibra LTDA</li>
               <li>Todos os direitos reservados.</li>
-              <li>CNPJ : 46848680000107</li>
+              <li>CNPJ: 17.047.165/0001-11</li>
             </ul>
           </div>
         </div>
