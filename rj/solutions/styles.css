@@ -55,7 +55,6 @@ lottie-player{
 
 #elipse img{
   min-width: 100%;
-
 }
 
 /*============== DESCRIPTION LINK ==============*/
@@ -172,3 +171,149 @@ lottie-player{
   padding-left: 2.5rem;
 }
 
+@media (max-width: 991px){
+  lottie-player{
+    width: 400px;
+  }
+
+  #elipse{
+    max-width: 100%; 
+  }
+  
+  #elipse img{
+    max-width: 100%;
+  }
+
+  #service-title{
+    width:100%;
+  }
+
+  #service-card{
+    height: 280px;
+  }
+
+  .service-img{
+    height: 100%;
+    min-width: 250px;
+  }
+
+  #service-img-1{
+    background-image: url(assets/img/fibra-optica.png);
+    background-size: 180%;
+  }
+  
+  #service-img-2{
+    background-image: url(assets/img/CabeamentoEstruturado.jpg);
+    background-size: 180%;
+  }
+  
+  #service-img-3{
+    background-image: url(assets/img/OTDR.jpg);
+    background-size: 180%;
+  }
+  
+  #service-img-4{
+    background-image: url(assets/img/portoes.jpg);
+    background-size: 180%;
+  }
+  
+  #service-img-5{
+    background-image: url(assets/img/InterfoneExternoeInterno.jpg);
+    background-size: 180%;
+  }
+  
+  #service-img-6{
+    background-image: url(assets/img/fechadura-eletronica.jpg);
+    background-size: 150%;
+  }
+  
+  #service-img-7{
+    background-image: url(assets/img/InstalacaoCamerasdeSeguranca.jpg);
+    background-size: 180%;
+    background-position: 70%;
+  }
+  
+  #service-img-8{
+    background-image: url(assets/img/ConsultoriadeTI.jpg);
+    background-size: 180%;
+  }
+  
+  #service-img-9{
+    background-image: url(assets/img/CT-dicas-de-seguranca.jpg);
+    background-size: 220%;
+  }
+}
+
+@media (max-width: 747px){
+  #description-container{
+    flex-direction: column;
+  }
+
+  #description-text-area{
+    max-width: 90%;
+  }
+
+  #service-card{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-img{
+    min-height: 35%;
+    min-width: 80%;
+  }
+
+  #service-text-area{
+    width: 75%;
+    min-height: 65%;
+    padding: 2rem 3rem;
+    border-radius: 0rem 0rem 1.5rem 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0rem;
+    margin-top: -1rem;
+  }
+  
+  #service-title{
+    font-size: var(--subtitle-size);
+    width: 100%;
+    font-weight: 800;
+  }
+  
+  #services-text{
+    font-size: var(--text-medium2);
+    font-weight: 500;
+    padding-left: 0rem;
+  }
+
+  .right #service-text-area{
+    align-items: center;
+    text-align: center;
+    border-radius: 0rem 0rem 1.5rem 1.5rem;
+    margin-right: 0rem;
+    margin-top: -1rem;
+  }
+}
+
+@media (max-width: 577px){
+ 
+  #service-card{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #service-text-area{
+    width: 75%;
+    min-height: 65%;
+    padding: 1rem 2rem;
+    border-radius: 0rem 0rem 1.5rem 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0rem;
+    margin-top: -1rem;
+  }
+}
